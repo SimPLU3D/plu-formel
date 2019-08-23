@@ -8,7 +8,7 @@
 
 ### B1_ART_8
 
-Valeur en mètre de la distance minimale à respecter entre deux bâtiments.
+Distance minimale des constructions les unes par rapport aux autres sur une même parcelle.
 
 ## Explications
 

@@ -5,33 +5,41 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
   <title>registry/IAUIDF-008.md</title>
+  <link type="text/css" rel="stylesheet" href="../assets/css/github-markdown.css">
+  <link type="text/css" rel="stylesheet" href="../assets/css/pilcrow.css">
+  <link type="text/css" rel="stylesheet" href="../assets/css/hljs-github.min.css" />
 
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/github.min.css">
+  <link rel="stylesheet" href="../assets/highlight/styles/github.css">
   <style>
     html, body {
-      width: 95%;
+      width: 90%;
       margin: auto;
-      padding-bottom: 50px;
+      padding: 0;
     }
   </style>
 </head>
 
 <body>
-  <article class="markdown-body">
-    <h1 id="iauidf-008-part-d-39-espace-libre-dans-la-parcelle"><a href="#iauidf-008-part-d-39-espace-libre-dans-la-parcelle" class="anchor"></a>IAUIDF-008 - Part d&#39;espace libre dans la parcelle</h1><h2 id="mod-le-de-phrase"><a href="#mod-le-de-phrase" class="anchor"></a>Modèle de phrase</h2><blockquote>
-<p>La part d&#39;espace libre dans la parcelle représente au minimum {{B1_ART_13}} fois l&#39;aire de la parcelle.</p>
+  <article class="markdown-body"><h1 id="iauidf-008-part-d-39-espace-libre-dans-la-parcelle"><a href="#iauidf-008-part-d-39-espace-libre-dans-la-parcelle" class="anchor"></a>IAUIDF-008 - Part d&#39;espace libre dans la parcelle</h1><h2 id="mod-le-de-phrase"><a href="#mod-le-de-phrase" class="anchor"></a>Modèle de phrase</h2><blockquote>
+<p>La part d&#39;espace libre dans la parcelle représente au minimum  fois l&#39;aire de la parcelle.</p>
 </blockquote>
-<h2 id="param-tres"><a href="#param-tres" class="anchor"></a>Paramètres</h2><h3 id="b1_art_13"><a href="#b1_art_13" class="anchor"></a>B1_ART_13</h3><p>Désigne le ratio minimum d&#39;espace libre au sein de la parcelle. Valeur entre 0 et 1.</p>
+<h2 id="param-tres"><a href="#param-tres" class="anchor"></a>Paramètres</h2><h3 id="b1_art_13"><a href="#b1_art_13" class="anchor"></a>B1_ART_13</h3><p>Part minimale d&#39;espaces libres de toute construction exprimée par rapport à la surface totale de la parcelle.</p>
+<p>Ratio compris entre 0 et 1.</p>
 <p>Remarque : Si valeur exprimée en %, convertir en ratio. Ex : 5%= 5/100 = 0,05 ; 85%= 85/100 = 0.85</p>
 <h2 id="explications"><a href="#explications" class="anchor"></a>Explications</h2><p><img src="img/IAUIDF/IAUIDF-008.png" alt="Image montrant la contrainte de hauteur maximale d&#39;un bâtiment"></p>
 <h2 id="impl-mentation"><a href="#impl-mentation" class="anchor"></a>Implémentation</h2><p>La vérification du ratio s&#39;effectue dans la classe PredicateIAUIDF. Seule la valeur de la première bande est prise en compte.</p>
-
   </article>
 
-  <!-- hightlight.pack.js -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+  <script src="../assets/highlight/highlight.pack.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
+
+  <script src="../assets/mermaid/mermaid.min.js"></script>
+  <script>mermaid.init({
+      startOnLoad: true,
+      flowchart: {
+        useMaxWidth: true
+      }
+    }, ".language-mermaid");</script>
 </body>
 
 </html>

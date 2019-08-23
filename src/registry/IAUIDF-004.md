@@ -8,7 +8,10 @@
 
 ### B1_ART_74
 
-Coefficient multiplicateur désignant la hauteur maximale du bâtiment par rapport aux limites séparatives latérales et de fond de parcelle.
+Distance minimale des constructions par rapport aux limites séparatives relative à la hauteur du bâtiment.
+
+* 1 : Retrait de la valeur de la hauteur, H
+* 2 : Retrait de la moitié de la valeur de hauteur, H / 2
 
 ## Explications
 

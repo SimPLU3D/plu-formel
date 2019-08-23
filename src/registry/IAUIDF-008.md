@@ -8,7 +8,9 @@
 
 ### B1_ART_13
 
-Désigne le ratio minimum d'espace libre au sein de la parcelle. Valeur entre 0 et 1.
+Part minimale d'espaces libres de toute construction exprimée par rapport à la surface totale de la parcelle.
+
+Ratio compris entre 0 et 1.
 
 Remarque : Si valeur exprimée en %, convertir en ratio. Ex : 5%= 5/100 = 0,05 ; 85%= 85/100 = 0.85
 

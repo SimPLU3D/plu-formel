@@ -2,13 +2,13 @@
 
 ## Modèle de phrase
 
-> Les bâtiments ne doivent pas être construits à une distance inférieure à {{B1_ART_6}} de la voirie.
+> Les bâtiments ne doivent pas être construits à une distance inférieure à {{B1_ART_6}}m de la voirie.
 
 ## Paramètres
 
 ### B1_ART_6
 
-Distance minimale en mètres de la construction par rapport à la voirie.
+Distance minimale des constructions par rapport à la voirie.
 
 ## Explications
 

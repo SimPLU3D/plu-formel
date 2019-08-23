@@ -8,7 +8,9 @@
 
 ### B1_ART_9
 
-Valeur maximale du coefficient d'emprise au sol (entre 0 et 1)
+Coefficient d’emprise au sol maximum.
+
+Ratio compris en 0 et 1.
 
 Remarque :  Si valeur exprimée en %, convertir en ratio. Ex : 5%= 5/100 = 0,05 ; 85%= 85/100 = 0.85
 

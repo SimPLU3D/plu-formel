@@ -5,21 +5,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
   <title>index.md</title>
+  <link type="text/css" rel="stylesheet" href="assets/css/github-markdown.css">
+  <link type="text/css" rel="stylesheet" href="assets/css/pilcrow.css">
+  <link type="text/css" rel="stylesheet" href="assets/css/hljs-github.min.css" />
 
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/github.min.css">
+  <link rel="stylesheet" href="assets/highlight/styles/github.css">
   <style>
     html, body {
-      width: 95%;
+      width: 90%;
       margin: auto;
-      padding-bottom: 50px;
+      padding: 0;
     }
   </style>
 </head>
 
 <body>
-  <article class="markdown-body">
-    <h1 id="registre-de-r-gles-simplu3d"><a href="#registre-de-r-gles-simplu3d" class="anchor"></a>Registre de règles SimPLU3D</h1><blockquote>
+  <article class="markdown-body"><h1 id="registre-de-r-gles-simplu3d"><a href="#registre-de-r-gles-simplu3d" class="anchor"></a>Registre de règles SimPLU3D</h1><blockquote>
 <p>ATTENTION : <a href="https://mborne.github.io/plu-formel/" target="_blank">https://mborne.github.io/plu-formel/</a> a vocation sur le long terme à être remplacé par <a href="https://www.geoportail-urbanisme.gouv.fr/schemas/plu-formel/1.0" target="_blank">https://www.geoportail-urbanisme.gouv.fr/schemas/plu-formel/1.0</a></p>
 </blockquote>
 <h2 id="description"><a href="#description" class="anchor"></a>Description</h2><p>L&#39;approche de formalisation des PLU présentée ici a été expérimentée dans le cadre du projet SimPLU3D. Elle résulte des constats suivants :</p>
@@ -65,7 +66,7 @@
 <td><code>template</code></td>
 <td><code>string</code></td>
 <td>Règle sous forme de phrase avec des paramètres</td>
-<td><code>Les bâtiments ne doivent pas être construits à une distance inférieure à {{ B1_ART_6 }} de la voirie.</code></td>
+<td><code>Les bâtiments ne doivent pas être construits à une distance inférieure à  de la voirie.</code></td>
 </tr>
 <tr>
 <td><code>params</code></td>
@@ -150,12 +151,18 @@
 <li><a href="legacy-csv.html">Principe d&#39;instanciation des règles en CSV (ancien fonctionnement)</a></li>
 <li><a href="projects.html">Relation possible entre ce registre de règle et d&#39;autres projets</a></li>
 </ul>
-
   </article>
 
-  <!-- hightlight.pack.js -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+  <script src="assets/highlight/highlight.pack.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
+
+  <script src="assets/mermaid/mermaid.min.js"></script>
+  <script>mermaid.init({
+      startOnLoad: true,
+      flowchart: {
+        useMaxWidth: true
+      }
+    }, ".language-mermaid");</script>
 </body>
 
 </html>

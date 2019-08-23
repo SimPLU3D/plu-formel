@@ -8,11 +8,10 @@
 
 ### B1_ART_73
 
-Distance de recul en mètre par rapport au fond de la parcelle. 
+Distance minimale des constructions par rapport à la limite séparative de fond de parcelle.
 
 Valeurs particulières :
 
-* 88 : non renseignable
 * 99 : non réglementé
 
 ## Explications

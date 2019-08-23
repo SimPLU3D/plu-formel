@@ -10,7 +10,6 @@
 
 Désigne la surface minimale à partir de laquelle la parcelle est constructible. Valeur positive.
 
-
 ## Explications
 
 ![Image montrant la contrainte surface minimale d'une parcelle](img/IAUIDF/IAUIDF-009.png)
