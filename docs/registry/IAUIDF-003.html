@@ -5,38 +5,44 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
   <title>registry/IAUIDF-003.md</title>
+  <link type="text/css" rel="stylesheet" href="../assets/css/github-markdown.css">
+  <link type="text/css" rel="stylesheet" href="../assets/css/pilcrow.css">
+  <link type="text/css" rel="stylesheet" href="../assets/css/hljs-github.min.css" />
 
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/github.min.css">
+  <link rel="stylesheet" href="../assets/highlight/styles/github.css">
   <style>
     html, body {
-      width: 95%;
+      width: 90%;
       margin: auto;
-      padding-bottom: 50px;
+      padding: 0;
     }
   </style>
 </head>
 
 <body>
-  <article class="markdown-body">
-    <h1 id="iauidf-003-distance-par-rapport-au-fond-de-parcelle"><a href="#iauidf-003-distance-par-rapport-au-fond-de-parcelle" class="anchor"></a>IAUIDF-003 - Distance par rapport au fond de parcelle</h1><h2 id="mod-le-de-phrase"><a href="#mod-le-de-phrase" class="anchor"></a>Modèle de phrase</h2><blockquote>
-<p>Une distance de {{B1_ART_73}} m doit être respecté par rapport au fond de la parcelle.</p>
+  <article class="markdown-body"><h1 id="iauidf-003-distance-par-rapport-au-fond-de-parcelle"><a href="#iauidf-003-distance-par-rapport-au-fond-de-parcelle" class="anchor"></a>IAUIDF-003 - Distance par rapport au fond de parcelle</h1><h2 id="mod-le-de-phrase"><a href="#mod-le-de-phrase" class="anchor"></a>Modèle de phrase</h2><blockquote>
+<p>Une distance de  m doit être respecté par rapport au fond de la parcelle.</p>
 </blockquote>
-<h2 id="param-tres"><a href="#param-tres" class="anchor"></a>Paramètres</h2><h3 id="b1_art_73"><a href="#b1_art_73" class="anchor"></a>B1_ART_73</h3><p>Distance de recul en mètre par rapport au fond de la parcelle. </p>
+<h2 id="param-tres"><a href="#param-tres" class="anchor"></a>Paramètres</h2><h3 id="b1_art_73"><a href="#b1_art_73" class="anchor"></a>B1_ART_73</h3><p>Distance minimale des constructions par rapport à la limite séparative de fond de parcelle.</p>
 <p>Valeurs particulières :</p>
 <ul>
-<li>88 : non renseignable</li>
 <li>99 : non réglementé</li>
 </ul>
-<h2 id="explications"><a href="#explications" class="anchor"></a>Explications</h2><p>Un recul de  {{B1_ART_73}} m s&#39;applique par rapport au fond de la parcelle.</p>
+<h2 id="explications"><a href="#explications" class="anchor"></a>Explications</h2><p>Un recul de   m s&#39;applique par rapport au fond de la parcelle.</p>
 <p><img src="img/IAUIDF/IAUIDF-003.png" alt="Image illustrant la contrainte de recul par rapport au fond de la parcelle"></p>
 <h2 id="impl-mentation"><a href="#impl-mentation" class="anchor"></a>Implémentation</h2><p>La vérification de la distance s&#39;effectue dans la classe PredicateIAUIDF sauf si les valeurs sont 88 et 99.</p>
-
   </article>
 
-  <!-- hightlight.pack.js -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+  <script src="../assets/highlight/highlight.pack.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
+
+  <script src="../assets/mermaid/mermaid.min.js"></script>
+  <script>mermaid.init({
+      startOnLoad: true,
+      flowchart: {
+        useMaxWidth: true
+      }
+    }, ".language-mermaid");</script>
 </body>
 
 </html>

@@ -5,34 +5,59 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
   <title>registry/IAUIDF-007.md</title>
+  <link type="text/css" rel="stylesheet" href="../assets/css/github-markdown.css">
+  <link type="text/css" rel="stylesheet" href="../assets/css/pilcrow.css">
+  <link type="text/css" rel="stylesheet" href="../assets/css/hljs-github.min.css" />
 
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/github.min.css">
+  <link rel="stylesheet" href="../assets/highlight/styles/github.css">
   <style>
     html, body {
-      width: 95%;
+      width: 90%;
       margin: auto;
-      padding-bottom: 50px;
+      padding: 0;
     }
   </style>
 </head>
 
 <body>
-  <article class="markdown-body">
-    <h1 id="iauidf-007-hauteur-maximale-des-constructions"><a href="#iauidf-007-hauteur-maximale-des-constructions" class="anchor"></a>IAUIDF-007 - Hauteur maximale des constructions</h1><h2 id="mod-le-de-phrase"><a href="#mod-le-de-phrase" class="anchor"></a>Modèle de phrase</h2><blockquote>
-<p>La hauteur de construction ne doit pas dépasser {{B1_ART_10_m}}} mètres</p>
+  <article class="markdown-body"><h1 id="iauidf-007-hauteur-maximale-des-constructions"><a href="#iauidf-007-hauteur-maximale-des-constructions" class="anchor"></a>IAUIDF-007 - Hauteur maximale des constructions</h1><h2 id="mod-le-de-phrase"><a href="#mod-le-de-phrase" class="anchor"></a>Modèle de phrase</h2><blockquote>
+<p>La hauteur de construction ne doit pas dépasser  exprimé dans l&#39;unité </p>
 </blockquote>
-<h2 id="param-tres"><a href="#param-tres" class="anchor"></a>Paramètres</h2><h3 id="b1_art_10_m"><a href="#b1_art_10_m" class="anchor"></a>B1_ART_10_m</h3><p>Valeur maximale de hauteur en m (88= non renseignable, 99=non réglementé)</p>
-<h2 id="explications"><a href="#explications" class="anchor"></a>Explications</h2><p>{{B1_ART_10_m}} désigne la hauteur maximale des bâtiments</p>
+<h2 id="param-tres"><a href="#param-tres" class="anchor"></a>Paramètres</h2><h3 id="b1_art_10t"><a href="#b1_art_10t" class="anchor"></a>B1_ART_10T</h3><p>Unité de mesure de la hauteur du bâtiment:</p>
+<ul>
+<li>1 : Exprimée par rapport au nombre de niveau R.</li>
+<li>2 : Exprimée en m du sol au faîtage.</li>
+<li>3 : Exprimée en m par rapport à la hauteur plafond.</li>
+<li>4 : Exprimée en m du sol au point le plus haut.</li>
+<li>5 : Exprimée en m par rapport à la hauteur de façade à l&#39;égout.</li>
+<li>6 : Exprimée en m par référence à la hauteur NGF hors édifices.</li>
+<li>7 : Exprimée en m par rapport à la hauteur à la côte du trottoir.</li>
+<li>8 : Exprimée en m par rapport au point le plus haut hors cheminées.</li>
+<li>9 : Exprimée en m par rapport au point le plus haut hors cheminées, ouvrages techniques.</li>
+<li>10 : Exprimée en m du sol à l&#39;acrotère.</li>
+<li>11 : Exprimée en m par rapport au point le plus haut tout inclus.</li>
+</ul>
+<h3 id="b1_art_10"><a href="#b1_art_10" class="anchor"></a>B1_ART_10</h3><p>Hauteur maximale autorisée.</p>
+<p>Valeur maximale de hauteur en m (selon le mode) </p>
+<p>Valeur particulière :</p>
+<ul>
+<li>99 = non réglementé</li>
+</ul>
+<h2 id="explications"><a href="#explications" class="anchor"></a>Explications</h2><p> désigne la hauteur maximale des bâtiments</p>
 <p><img src="img/IAUIDF/IAUIDF-007.png" alt="Image montrant la contrainte de hauteur maximale d&#39;un bâtiment"></p>
 <h2 id="impl-mentation"><a href="#impl-mentation" class="anchor"></a>Implémentation</h2><p>La vérification de la distance s&#39;effectue dans la classe PredicateIAUIDF.</p>
-<p><strong>NOTE :</strong> Par rapport aux règles de l&#39;IAU-IDF qui définissent la modalité de calcul de la hauteur (ART_10T) et la valeur maximale calculée en fonction de cette modalité (ART_10), nous utilisons ici seulement la valeur {{B1_ART_10_m}} qui correspond à la hauteur maximale en mètres. Cette valeur est calculée à partir de (ART_10T) et (ART_10) par l&#39;IAU-IDF.</p>
-
   </article>
 
-  <!-- hightlight.pack.js -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+  <script src="../assets/highlight/highlight.pack.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
+
+  <script src="../assets/mermaid/mermaid.min.js"></script>
+  <script>mermaid.init({
+      startOnLoad: true,
+      flowchart: {
+        useMaxWidth: true
+      }
+    }, ".language-mermaid");</script>
 </body>
 
 </html>

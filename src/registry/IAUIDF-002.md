@@ -22,7 +22,7 @@ Distance minimale des constructions par rapport aux limites séparatives imposé
 ## Explications
 
 Suivant les cas imposés par {{B1_ART_71}} :
-* si {{B1_ART_71}} = 0, on ne peut construire à moins de {{B1_ART_72} m des limites latérales ;
+* si {{B1_ART_71}} = 0, on ne peut construire à moins de {{B1_ART_72}} m des limites latérales ;
 * si {{B1_ART_71}} = 1, le bâtiment doit être construit des deux côtés de la parcelle ;
 * si {{B1_ART_71}} = 2, le bâtiment doit être collé d'un côté de la parcelle et respecter un recul par rapport à l'autre côté.
 
