@@ -5,24 +5,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
   <title>registry/IAUIDF-002.md</title>
-  <link type="text/css" rel="stylesheet" href="../assets/css/github-markdown.css">
-  <link type="text/css" rel="stylesheet" href="../assets/css/pilcrow.css">
-  <link type="text/css" rel="stylesheet" href="../assets/css/hljs-github.min.css" />
 
-  <link rel="stylesheet" href="../assets/highlight/styles/github.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/github.min.css">
   <style>
     html, body {
-      width: 90%;
+      width: 95%;
       margin: auto;
-      padding: 0;
+      padding-bottom: 50px;
     }
   </style>
 </head>
 
 <body>
-  <article class="markdown-body"><h1 id="iauidf-002-distance-et-alignement-par-rapport-aux-limites-s-paratives"><a href="#iauidf-002-distance-et-alignement-par-rapport-aux-limites-s-paratives" class="anchor"></a>IAUIDF-002 - Distance et alignement par rapport aux limites séparatives</h1><h2 id="mod-le-de-phrase"><a href="#mod-le-de-phrase" class="anchor"></a>Modèle de phrase</h2><blockquote>
-<p>Une distance par rapport aux limites séparatives latérales de la parcelle de  m doit être respectée.
-Un alignement est imposé par rapport aux côtés des limites séparatives  </p>
+  <article class="markdown-body">
+    <h1 id="iauidf-002-distance-et-alignement-par-rapport-aux-limites-s-paratives"><a href="#iauidf-002-distance-et-alignement-par-rapport-aux-limites-s-paratives" class="anchor"></a>IAUIDF-002 - Distance et alignement par rapport aux limites séparatives</h1><h2 id="mod-le-de-phrase"><a href="#mod-le-de-phrase" class="anchor"></a>Modèle de phrase</h2><blockquote>
+<p>Une distance par rapport aux limites séparatives latérales de la parcelle de {{B1_ART_72}} m doit être respectée.
+Un alignement est imposé par rapport aux côtés des limites séparatives  {{B1_ART_71}}</p>
 </blockquote>
 <h2 id="param-tres"><a href="#param-tres" class="anchor"></a>Paramètres</h2><h3 id="b1_art_71"><a href="#b1_art_71" class="anchor"></a>B1_ART_71</h3><p>Implantation en limite séparatives :</p>
 <ul>
@@ -31,26 +30,20 @@ Un alignement est imposé par rapport aux côtés des limites séparatives  </p>
 <li>2 : Oui, mais sur un côté seulement</li>
 </ul>
 <h3 id="b1_art_72"><a href="#b1_art_72" class="anchor"></a>B1_ART_72</h3><p>Distance minimale des constructions par rapport aux limites séparatives imposée.</p>
-<h2 id="explications"><a href="#explications" class="anchor"></a>Explications</h2><p>Suivant les cas imposés par  :</p>
+<h2 id="explications"><a href="#explications" class="anchor"></a>Explications</h2><p>Suivant les cas imposés par {{B1_ART_71}} :</p>
 <ul>
-<li>si  = 0, on ne peut construire à moins de  m des limites latérales ;</li>
-<li>si  = 1, le bâtiment doit être construit des deux côtés de la parcelle ;</li>
-<li>si  = 2, le bâtiment doit être collé d&#39;un côté de la parcelle et respecter un recul par rapport à l&#39;autre côté.</li>
+<li>si {{B1_ART_71}} = 0, on ne peut construire à moins de {{B1_ART_72}} m des limites latérales ;</li>
+<li>si {{B1_ART_71}} = 1, le bâtiment doit être construit des deux côtés de la parcelle ;</li>
+<li>si {{B1_ART_71}} = 2, le bâtiment doit être collé d&#39;un côté de la parcelle et respecter un recul par rapport à l&#39;autre côté.</li>
 </ul>
 <p><img src="img/IAUIDF/IAUIDF-002.png" alt="Image illustrant les contraintes par rapport aux limites latérales"></p>
-<h2 id="impl-mentation"><a href="#impl-mentation" class="anchor"></a>Implémentation</h2><p>La vérification de la distance s&#39;effectue dans la classe PredicateIAUIDF. Dans le cas où le bâtiment doit être collé des deux côté ( = 1), pour l&#39;instant il ne subit aucune contrainte et est libre en termes de placement. Si le bâtiment doit être d&#39;un côté ( = 2), deux simulations sont effectuées en tentant de coller le bâtiment à chacun des côté de la parcelle et la simulation optimisant le volume est conservée. Le fait d&#39;être collé est assuré lors de la génération du bâtiment (MultipleBuildingsCuboid).</p>
+<h2 id="impl-mentation"><a href="#impl-mentation" class="anchor"></a>Implémentation</h2><p>La vérification de la distance s&#39;effectue dans la classe PredicateIAUIDF. Dans le cas où le bâtiment doit être collé des deux côté ({{B1_ART_71}} = 1), pour l&#39;instant il ne subit aucune contrainte et est libre en termes de placement. Si le bâtiment doit être d&#39;un côté ({{B1_ART_71}} = 2), deux simulations sont effectuées en tentant de coller le bâtiment à chacun des côté de la parcelle et la simulation optimisant le volume est conservée. Le fait d&#39;être collé est assuré lors de la génération du bâtiment (MultipleBuildingsCuboid).</p>
+
   </article>
 
-  <script src="../assets/highlight/highlight.pack.js"></script>
+  <!-- hightlight.pack.js -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
-
-  <script src="../assets/mermaid/mermaid.min.js"></script>
-  <script>mermaid.init({
-      startOnLoad: true,
-      flowchart: {
-        useMaxWidth: true
-      }
-    }, ".language-mermaid");</script>
 </body>
 
 </html>

@@ -5,22 +5,21 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
   <title>legacy-csv.md</title>
-  <link type="text/css" rel="stylesheet" href="assets/css/github-markdown.css">
-  <link type="text/css" rel="stylesheet" href="assets/css/pilcrow.css">
-  <link type="text/css" rel="stylesheet" href="assets/css/hljs-github.min.css" />
 
-  <link rel="stylesheet" href="assets/highlight/styles/github.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/github.min.css">
   <style>
     html, body {
-      width: 90%;
+      width: 95%;
       margin: auto;
-      padding: 0;
+      padding-bottom: 50px;
     }
   </style>
 </head>
 
 <body>
-  <article class="markdown-body"><h1 id="instanciation-des-r-gles-par-fichier-csv-d-pr-ci-"><a href="#instanciation-des-r-gles-par-fichier-csv-d-pr-ci-" class="anchor"></a>Instanciation des règles par fichier CSV (déprécié)</h1><p>Tant que les noms des paramètres des règles d&#39;urbanisme demeurent uniques, il est possible de mettre facilement à plat les informations en définissant des colonnes correspondant au nom des paramètres.</p>
+  <article class="markdown-body">
+    <h1 id="instanciation-des-r-gles-par-fichier-csv-d-pr-ci-"><a href="#instanciation-des-r-gles-par-fichier-csv-d-pr-ci-" class="anchor"></a>Instanciation des règles par fichier CSV (déprécié)</h1><p>Tant que les noms des paramètres des règles d&#39;urbanisme demeurent uniques, il est possible de mettre facilement à plat les informations en définissant des colonnes correspondant au nom des paramètres.</p>
 <h2 id="colonnes-pour-l-39-identification-du-document-d-39-urbanisme"><a href="#colonnes-pour-l-39-identification-du-document-d-39-urbanisme" class="anchor"></a>Colonnes pour l&#39;identification du document d&#39;urbanisme</h2><ul>
 <li><strong>DOCUMENT_ID</strong> : Identifiant du document d&#39;urbanisme sur le GpU (ex : <code>https://www.geoportail-urbanisme.gouv.fr/document/by-id/69f0e42b13c577e63186146f9f1e65c5</code>).</li>
 <li><strong>DOCUMENT_NAME</strong> : Nom de dossier du document d&#39;urbanisme standardisé par le CNIG (ex : <code>25349_PLU_20010101</code>).</li>
@@ -55,18 +54,12 @@
 <li><p>Pour IAUIDF-010 : <a href="registry/IAUIDF-010.html#B1_ART_14">B1_ART_14</a></p>
 </li>
 </ul>
+
   </article>
 
-  <script src="assets/highlight/highlight.pack.js"></script>
+  <!-- hightlight.pack.js -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
-
-  <script src="assets/mermaid/mermaid.min.js"></script>
-  <script>mermaid.init({
-      startOnLoad: true,
-      flowchart: {
-        useMaxWidth: true
-      }
-    }, ".language-mermaid");</script>
 </body>
 
 </html>
