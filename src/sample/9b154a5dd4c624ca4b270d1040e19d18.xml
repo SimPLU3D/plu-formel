@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pluFormel id="9b154a5dd4c624ca4b270d1040e19d18" name="19010_reglement_20120601" municipality="ARGENTAT-SUR-DORDOGNE">
+
+  <zone code="Us">
+    <rules>
+      <rule id="IAUIDF-000">
+        <param name="B1_T_Bande">88.0</param>
+        <citation></citation>
+      </rule>
+
+      <rule id="IAUIDF-000">
+        <param name="B1_BANDE">88.0</param>
+        <citation></citation>
+      </rule>
+
+      <rule id="IAUIDF-009">
+        <param name="B1_ART_5">88.0</param>
+        <citation>Les caractéristiques des terrains doivent être compatibles avec le type d'assainissement envisagé</citation>
+      </rule>
+
+      <rule id="IAUIDF-009">
+        <param name="B1_ART_6">88.0</param>
+        <citation></citation>
+      </rule>
+
+      <rule id="IAUIDF-002">
+        <param name="B1_ART_71">1.0</param>
+        <citation>
+          Toute construction doit être : soit implantée sur les limites séparatives, soit à une distance telle que les façades devront être écartées d'une distance au moins égale à la moitié de la hauteur du bâti avec un minimum de 3 mètres.
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-002">
+        <param name="B1_ART_72">88.0</param>
+        <citation></citation>
+      </rule>
+
+      <rule id="IAUIDF-003">
+        <param name="B1_ART_73">88.0</param>
+        <citation></citation>
+      </rule>
+
+      <rule id="IAUIDF-004">
+        <param name="B1_ART_74">88.0</param>
+        <citation>
+          Toute construction doit être : soit implantée sur les limites séparatives, soit à une distance telle que les façades devront être écartées d'une distance au moins égale à la moitié de la hauteur du bâti avec un minimum de 3 mètres.
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-005">
+        <param name="B1_ART_8">99.0</param>
+        <citation>
+          Non réglementé.
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-006">
+        <param name="B1_ART_9">99.0</param>
+        <citation>
+          Non réglementé.
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-007">
+        <param name="B1_ART_10_m">11.0</param>
+        <citation>
+          La hauteur des constructions ne doit pas excéder onze mètres, ou ne pas dépasser le gabarit des immeubles sur limites séparatives.
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-008">
+        <param name="B1_ART_13">88.0</param>
+        <citation></citation>
+      </rule>
+
+      <rule id="IAUIDF-010">
+        <param name="B1_ART_14">99.0</param>
+        <citation>
+          Non réglementé.
+        </citation>
+      </rule>
+    </rules>
+  </zone>
+
+  <zone code="Up">
+    <rules>
+      <rule id="IAUIDF-000">
+        <param name="B1_T_Bande">88.0</param>
+        <citation></citation>
+      </rule>
+
+      <rule id="IAUIDF-000">
+        <param name="B1_BANDE">88.0</param>
+        <citation></citation>
+      </rule>
+
+      <rule id="IAUIDF-009">
+        <param name="B1_ART_5">88.0</param>
+        <citation>
+          Les caractéristiques des terrains doivent être compatibles avec le type d'assainissement envisagé
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-009">
+        <param name="B1_ART_6">88.0</param>
+        <citation></citation>
+      </rule>
+
+      <rule id="IAUIDF-002">
+        <param name="B1_ART_71">1.0</param>
+        <citation>
+          En limite des voies et emprises publiques, les constructions, parties de constructions ou de mur de clôture, seront édifiées d'une limite séparative latérale à l'autre.
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-002">
+        <param name="B1_ART_72">88.0</param>
+        <citation>
+          Au cas où les constructions jouxteraient un immeuble comportant des baies, un retrait de 1 mètre 90 pourra être accordé conformément aux dispositions des articles 678 et 679 du code civil.
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-003">
+        <param name="B1_ART_73">88.0</param>
+        <citation></citation>
+      </rule>
+
+      <rule id="IAUIDF-004">
+        <param name="B1_ART_74">88.0</param>
+        <citation></citation>
+      </rule>
+
+      <rule id="IAUIDF-005">
+        <param name="B1_ART_8">88.0</param>
+        <citation>
+          La continuité des volumes bâtis sera recherchée.
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-006">
+        <param name="B1_ART_9">88.0</param>
+        <citation>
+          Sur les terrains comportant des bâtiments protégés au titre de l'article L.123-1-7° du code de l'urbanisme, aucune emprise supplémentaire n'est autorisée à l'exception du complètement d'anciennes compositions qui ont été amputées et ce, sans limite d'emprise.
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-007">
+        <param name="B1_ART_10_m">12.0</param>
+        <citation>
+          La hauteur maximale est fixée à 12 mètres à l'égout hormis pour les constructions nouvelles remplaçant une construction existante, dont la hauteur autorisée est celle du bâtiment existant.
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-008">
+        <param name="B1_ART_13">88.0</param>
+        <citation>
+          L'occupation de l'espace libre est donc laissé à l'appréciation de chaque propriétaire. 
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-010">
+        <param name="B1_ART_14">99.0</param>
+        <citation>
+          Non réglementé.
+        </citation>
+      </rule>
+    </rules>
+  </zone>
+
+  <zone code="Ux">
+    <rules>
+      <rule id="IAUIDF-000">
+        <param name="B1_T_Bande">88.0</param>
+        <citation></citation>
+      </rule>
+
+      <rule id="IAUIDF-000">
+        <param name="B1_BANDE">88.0</param>
+        <citation></citation>
+      </rule>
+
+      <rule id="IAUIDF-009">
+        <param name="B1_ART_5">88.0</param>
+        <citation>
+          Les caractéristiques des terrains doivent être compatibles avec le type d'assainissement envisagé
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-009">
+        <param name="B1_ART_6">88.0</param>
+        <citation></citation>
+      </rule>
+
+      <rule id="IAUIDF-002">
+        <param name="B1_ART_71">1.0</param>
+        <citation>
+          Toute construction doit être : soit implantée sur les limites séparatives, soit à une distance telle que les façades devront être écartées d'une distance au moins égale à la moitié de la hauteur du bâti avec un minimum de 3 mètres.
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-002">
+        <param name="B1_ART_72">3.0</param>
+        <citation>
+          Toute construction doit être : soit implantée sur les limites séparatives, soit à une distance telle que les façades devront être écartées d'une distance au moins égale à la moitié de la hauteur du bâti avec un minimum de 3 mètres.
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-003">
+        <param name="B1_ART_73">88.0</param>
+        <citation></citation>
+      </rule>
+
+      <rule id="IAUIDF-004">
+        <param name="B1_ART_74">2.0</param>
+        <citation>
+          Toute construction doit être : soit implantée sur les limites séparatives, soit à une distance telle que les façades devront être écartées d'une distance au moins égale à la moitié de la hauteur du bâti avec un minimum de 3 mètres.
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-005">
+        <param name="B1_ART_8">5.0</param>
+        <citation>
+          Les bâtiments situés sur une même unité foncière doivent être : soit contigus, soit implantés en tout point à une distance minimale de 5 mètres des autres bâtiments.
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-006">
+        <param name="B1_ART_9">99.0</param>
+        <citation>
+          Non réglementé. 
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-007">
+        <param name="B1_ART_10_m">99.0</param>
+        <citation>
+          Non réglementé. 
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-008">
+        <param name="B1_ART_13">88.0</param>
+        <citation>
+          Les espaces non bâtis devront être aménagés que ce soit de manière végétale ou minérale en tenant compte de la bonne intégration des aménagements dans le paysage.
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-010">
+        <param name="B1_ART_14">99.0</param>
+        <citation>
+          Non réglementé.
+        </citation>
+      </rule>
+    </rules>
+  </zone>
+
+</pluFormel>
