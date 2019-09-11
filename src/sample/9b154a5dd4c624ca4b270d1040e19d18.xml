@@ -1,6 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pluFormel id="9b154a5dd4c624ca4b270d1040e19d18" name="19010_PLU_20131210" municipality="ARGENTAT-SUR-DORDOGNE">
 
+  <zone code="U">
+    <rules>
+      <rule id="IAUIDF-000">
+        <param name="B1_T_Bande">-88.0</param>
+        <citation></citation>
+      </rule>
+
+      <rule id="IAUIDF-000">
+        <param name="B1_BANDE">-88.0</param>
+        <citation></citation>
+      </rule>
+
+      <rule id="IAUIDF-009">
+        <param name="B1_ART_5">-88.0</param>
+        <citation>
+          Les caractéristiques des terrains doivent être compatibles avec le type d'assainissement envisagé
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-009">
+        <param name="B1_ART_6">-88.0</param>
+        <citation></citation>
+      </rule>
+
+      <rule id="IAUIDF-002">
+        <param name="B1_ART_71">1.0</param>
+        <citation>
+          Toute construction doit être : soit implantée sur les limites séparatives, soit à une distance telle que les façades devront être écartées d'une distance au moins égale à la moitié de la hauteur du bâti avec un minimum de 3 mètres.
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-002">
+        <param name="B1_ART_72">3.0</param>
+        <citation>
+          Toute construction doit être : soit implantée sur les limites séparatives, soit à une distance telle que les façades devront être écartées d'une distance au moins égale à la moitié de la hauteur du bâti avec un minimum de 3 mètres.
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-003">
+        <param name="B1_ART_73">-88.0</param>
+        <citation></citation>
+      </rule>
+
+      <rule id="IAUIDF-004">
+        <param name="B1_ART_74">2.0</param>
+        <citation>
+          Toute construction doit être : soit implantée sur les limites séparatives, soit à une distance telle que les façades devront être écartées d'une distance au moins égale à la moitié de la hauteur du bâti avec un minimum de 3 mètres.
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-005">
+        <param name="B1_ART_8">-99.0</param>
+        <citation>
+          Non réglementé.
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-006">
+        <param name="B1_ART_9">-99.0</param>
+        <citation>
+          Non réglementé.
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-007">
+        <param name="B1_ART_10_m">-88.0</param>
+        <citation>
+        Pour les constructions à usage d'habitation, la hauteur des constructions ne doit pas excéder un étage sur rez-de-chaussée + combles aménageables, soit 7 mètres maximum à l'égout du toit par rapport au terrain naturel pour les maisons individuelles et deux étages sur rez-de-chaussée + combles aménageables, soit 10 mètres maximum à l'égout du toit par rapport au terrain naturel pour le petit collectif, ou ne pas dépasser le gabarit des immeubles avoisinants.
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-008">
+        <param name="B1_ART_13">-88.0</param>
+        <citation>
+          Toute projet contigu à une plantation de verger d'exploitation devra présenter une zone tampon végétalisée de type haie arbustive.
+        </citation>
+      </rule>
+
+      <rule id="IAUIDF-010">
+        <param name="B1_ART_14">-99.0</param>
+        <citation>
+          Non réglementé.
+        </citation>
+      </rule>
+    </rules>
+  </zone>
+
   <zone code="Us">
     <rules>
       <rule id="IAUIDF-000">
