@@ -25,12 +25,17 @@ Un alignement est imposé par rapport aux côtés des limites séparatives  {{B1
 </blockquote>
 <h2 id="param-tres"><a href="#param-tres" class="anchor"></a>Paramètres</h2><h3 id="b1_art_71"><a href="#b1_art_71" class="anchor"></a>B1_ART_71</h3><p>Implantation en limite séparatives :</p>
 <ul>
-<li>0 : non, retrait imposé (cf.72)</li>
-<li>1 : Oui des deux côtés</li>
-<li>2 : Oui, mais sur un côté seulement</li>
+<li>0 : Non, aucun retrait imposé par rapport au limites séparatives.</li>
+<li>1 : Oui retrait imposé par rapport aux limites séparatives.</li>
+<li>2 : Oui, retrait imposé mais uniquement sur un côté.</li>
 </ul>
 <h3 id="b1_art_72"><a href="#b1_art_72" class="anchor"></a>B1_ART_72</h3><p>Distance minimale des constructions par rapport aux limites séparatives imposée.</p>
-<h2 id="explications"><a href="#explications" class="anchor"></a>Explications</h2><p>Suivant les cas imposés par {{B1_ART_71}} :</p>
+<ul>
+<li>Valeur numérique si B1_ART_71 est 1 ou 2.</li>
+<li>Pas de valeur sinon (-88 ou -99).</li>
+</ul>
+<h2 id="explications"><a href="#explications" class="anchor"></a>Explications</h2><p><em>Le paragraphe ci dessous fait référence à une ancienne version et sera prochainement modifié</em></p>
+<p>Suivant les cas imposés par {{B1_ART_71}} :</p>
 <ul>
 <li>si {{B1_ART_71}} = 0, on ne peut construire à moins de {{B1_ART_72}} m des limites latérales ;</li>
 <li>si {{B1_ART_71}} = 1, le bâtiment doit être construit des deux côtés de la parcelle ;</li>

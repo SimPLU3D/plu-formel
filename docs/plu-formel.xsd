@@ -20,6 +20,16 @@
 			<xs:extension base="xs:string">
 				<xs:attribute name="name" type="xs:string">
 				</xs:attribute>
+        <xs:attribute name="nil" type="xs:boolean" use="optional">
+          <xs:annotation>
+            <xs:documentation>"true" si le paramètre n'a pas de valeur.</xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="nilReason" type="xs:string" use="optional">
+          <xs:annotation>
+            <xs:documentation>Si nil est "true", explique l'absence de valeur, peut-être "other:NonRenseigne" ou "other:NonReglemente"</xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
 			</xs:extension>
 		</xs:simpleContent>
 	</xs:complexType>
@@ -77,11 +87,6 @@
 		<xs:attribute name="code" type="xs:string">
 			<xs:annotation>
 				<xs:documentation>Le code la zone d'urbanisme (ex : Ua), équivalent à ZONE_URBA.LIBELLE dans le standard CNIG PLU</xs:documentation>
-			</xs:annotation>
-		</xs:attribute>
-		<xs:attribute name="parent" type="xs:string">
-			<xs:annotation>
-				<xs:documentation>Permet de référencer une zone parent par son code afin d'indiquer que ses règles s'appliquent sur cette sous-zone</xs:documentation>
 			</xs:annotation>
 		</xs:attribute>
 	</xs:complexType>

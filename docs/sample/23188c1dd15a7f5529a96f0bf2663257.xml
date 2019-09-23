@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pluFormel id="23188c1dd15a7f5529a96f0bf2663257" name="38149_PLU_20170410">
+  <zone code="Ua">
+    <rules>
+      <rule id="IAUIDF-000">
+        <param name="B1_T_Bande" nil="true" nilReason="other:NonRenseignable"></param>
+        <citation />
+      </rule>
+      <rule id="IAUIDF-000">
+        <param name="B1_BANDE" nil="true" nilReason="other:NonRenseignable"></param>
+        <citation />
+      </rule>
+      <rule id="IAUIDF-009">
+        <param name="B1_ART_5" nil="true" nilReason="other:NonReglemente"></param>
+        <citation>Non réglementé.</citation>
+      </rule>
+      <rule id="IAUIDF-009">
+        <param name="B1_ART_6">5</param>
+        <citation>Sauf dispositions contraires portées aux documents graphiques, les construtions ou bâtiments doivent être mplantées par rapport à l'alignement : avec un recul au plus égal à 5 mètres en Ua ; avec un recul minimum de 5 mètres dans les secteurs Ub, y compris Uba et Ue.</citation>
+      </rule>
+      <rule id="IAUIDF-002">
+        <param name="B1_ART_71">0.0</param>
+        <citation>La distance comptée horizontalement de tout point du bâtiment à construire hors débord de toiture (dans la limite de 0,50 mètre) au point de la limite parcellaire qui en est le plus rapproché doit être au moins égale à quatre mètres.</citation>
+      </rule>
+      <rule id="IAUIDF-002">
+        <param name="B1_ART_72">4.0</param>
+        <citation>La distance comptée horizontalement de tout point du bâtiment à construire hors débord de toiture (dans la limite de 0,50 mètre) au point de la limite parcellaire qui en est le plus rapproché doit être au moins égale à quatre mètres</citation>
+      </rule>
+      <rule id="IAUIDF-003">
+        <param name="B1_ART_73" nil="true" nilReason="other:NonRenseignable"></param>
+        <citation />
+      </rule>
+      <rule id="IAUIDF-004">
+        <param name="B1_ART_74" nil="true" nilReason="other:NonRenseignable"></param>
+        <citation />
+      </rule>
+      <rule id="IAUIDF-005">
+        <param name="B1_ART_8">4.0</param>
+        <citation>Une distance d'au moins 4 mètres peut être imposée entre deux constructions non contigües.</citation>
+      </rule>
+      <rule id="IAUIDF-006">
+        <param name="B1_ART_9" nil="true" nilReason="other:NonReglemente"></param>
+        <citation>Non réglementé.</citation>
+      </rule>
+      <rule id="IAUIDF-007">
+        <param name="B1_ART_10_m">9.0</param>
+        <citation>La hauteur maximale des constructions, sauf équipements publics, mesurée à l'égout de toit, est limitée à : 9 mètres en Ua, 7 mètres en Ub et 12 mètres en Uba et Ue.</citation>
+      </rule>
+      <rule id="IAUIDF-008">
+        <param name="B1_ART_13" nil="true" nilReason="other:NonRenseignable"></param>
+        <citation>Le permis de construire ou d'aménager, ou la décision prise sur la déclaration préalable, peut être subordonnée au maintien ou à la création d'espaces verts correspondant à l'importance de l'immeuble à construire.</citation>
+      </rule>
+      <rule id="IAUIDF-010">
+        <param name="B1_ART_14" nil="true" nilReason="other:NonReglemente"></param>
+        <citation>Non réglementé.</citation>
+      </rule>
+    </rules>
+  </zone>
+  <zone code="Uba">
+    <rules>
+      <rule id="IAUIDF-000">
+        <param name="B1_T_Bande" nil="true" nilReason="other:NonRenseignable"></param>
+        <citation />
+      </rule>
+      <rule id="IAUIDF-000">
+        <param name="B1_BANDE" nil="true" nilReason="other:NonRenseignable"></param>
+        <citation />
+      </rule>
+      <rule id="IAUIDF-009">
+        <param name="B1_ART_5" nil="true" nilReason="other:NonReglemente"></param>
+        <citation>Non réglementé.</citation>
+      </rule>
+      <rule id="IAUIDF-009">
+        <param name="B1_ART_6">5</param>
+        <citation>Sauf dispositions contraires portées aux documents graphiques, les construtions ou bâtiments doivent être mplantées par rapport à l'alignement : avec un recul au plus égal à 5 mètres en Ua ; avec un recul minimum de 5 mètres dans les secteurs Ub, y compris Uba et Ue.</citation>
+      </rule>
+      <rule id="IAUIDF-002">
+        <param name="B1_ART_71">0.0</param>
+        <citation>La distance comptée horizontalement de tout point du bâtiment à construire hors débord de toiture (dans la limite de 0,50 mètre) au point de la limite parcellaire qui en est le plus rapproché doit être au moins égale à quatre mètres.</citation>
+      </rule>
+      <rule id="IAUIDF-002">
+        <param name="B1_ART_72">4.0</param>
+        <citation>La distance comptée horizontalement de tout point du bâtiment à construire hors débord de toiture (dans la limite de 0,50 mètre) au point de la limite parcellaire qui en est le plus rapproché doit être au moins égale à quatre mètres</citation>
+      </rule>
+      <rule id="IAUIDF-003">
+        <param name="B1_ART_73" nil="true" nilReason="other:NonRenseignable"></param>
+        <citation />
+      </rule>
+      <rule id="IAUIDF-004">
+        <param name="B1_ART_74" nil="true" nilReason="other:NonRenseignable"></param>
+        <citation />
+      </rule>
+      <rule id="IAUIDF-005">
+        <param name="B1_ART_8">4.0</param>
+        <citation>Une distance d'au moins 4 mètres peut être imposée entre deux constructions non contigües.</citation>
+      </rule>
+      <rule id="IAUIDF-006">
+        <param name="B1_ART_9" nil="true" nilReason="other:NonReglemente"></param>
+        <citation>Non réglementé.</citation>
+      </rule>
+      <rule id="IAUIDF-007">
+        <param name="B1_ART_10_m">12.0</param>
+        <citation>La hauteur maximale des constructions, sauf équipements publics, mesurée à l'égout de toit, est limitée à : 9 mètres en Ua, 7 mètres en Ub et 12 mètres en Uba et Ue.</citation>
+      </rule>
+      <rule id="IAUIDF-008">
+        <param name="B1_ART_13" nil="true" nilReason="other:NonRenseignable"></param>
+        <citation>Le permis de construire ou d'aménager, ou la décision prise sur la déclaration préalable, peut être subordonnée au maintien ou à la création d'espaces verts correspondant à l'importance de l'immeuble à construire.</citation>
+      </rule>
+      <rule id="IAUIDF-010">
+        <param name="B1_ART_14" nil="true" nilReason="other:NonReglemente"></param>
+        <citation>Non réglementé.</citation>
+      </rule>
+    </rules>
+  </zone>
+  <zone code="Ui">
+    <rules>
+      <rule id="IAUIDF-000">
+        <param name="B1_T_Bande" nil="true" nilReason="other:NonRenseignable"></param>
+        <citation />
+      </rule>
+      <rule id="IAUIDF-000">
+        <param name="B1_BANDE" nil="true" nilReason="other:NonRenseignable"></param>
+        <citation />
+      </rule>
+      <rule id="IAUIDF-009">
+        <param name="B1_ART_5" nil="true" nilReason="other:NonReglemente"></param>
+        <citation>Non réglementé.</citation>
+      </rule>
+      <rule id="IAUIDF-009">
+        <param name="B1_ART_6">5.0</param>
+        <citation>Sauf dispositions contraires portées aux documents graphiques, toute construction ou installation doit respecter un recul minimum de 5 mètres par rapport à l'alignement, porté à 10 mètres en bordure de la voie ferrée.</citation>
+      </rule>
+      <rule id="IAUIDF-002">
+        <param name="B1_ART_71">1.0</param>
+        <citation>La distance comptée horizontalement de tout point du bâtiment à construire hors débord de toiture (dans la limite de 0,50 mètre) au point de la limite parcellaire qui en est le plus rapproché doit être au moins égale à la moitié de la différence d'altitude entre ces deux points sans être inférieure à cinq mètres.</citation>
+      </rule>
+      <rule id="IAUIDF-002">
+        <param name="B1_ART_72">4.0</param>
+        <citation>La distance comptée horizontalement de tout point du bâtiment à construire hors débord de toiture (dans la limite de 0,50 mètre) au point de la limite parcellaire qui en est le plus rapproché doit être au moins égale à quatre mètres.</citation>
+      </rule>
+      <rule id="IAUIDF-003">
+        <param name="B1_ART_73" nil="true" nilReason="other:NonRenseignable"></param>
+        <citation />
+      </rule>
+      <rule id="IAUIDF-004">
+        <param name="B1_ART_74">2.0</param>
+        <citation>La distance comptée horizontalement de tout point du bâtiment à construire hors débord de toiture (dans la limite de 0,50 mètre) au point de la limite parcellaire qui en est le plus rapproché doit être au moins égale à la moitié de la différence d'altitude entre ces deux points sans être inférieure à cinq mètres.</citation>
+      </rule>
+      <rule id="IAUIDF-005">
+        <param name="B1_ART_8">5.0</param>
+        <citation>Entre deux constructions non jointives, quelles qu'en soient la nature et l'importance, il doit toujours être un aménagé un espacement suffisant pour permettre l'entretien facile du sol et des constructions et, s'il y a lieu, le passage et le fonctionnement du matériel de lutte contre l'incendie. Cet espacement sera au minimum de cinq mètres.</citation>
+      </rule>
+      <rule id="IAUIDF-006">
+        <param name="B1_ART_9" nil="true" nilReason="other:NonReglemente"></param>
+        <citation>Non réglementé.</citation>
+      </rule>
+      <rule id="IAUIDF-007">
+        <param name="B1_ART_10_m">12.0</param>
+        <citation>La hauteur maximale des constructions, par rapport au sol naturel est fixée à 12 mètres hors tout.</citation>
+      </rule>
+      <rule id="IAUIDF-008">
+        <param name="B1_ART_13">0.10</param>
+        <citation>Les surfaces non bâties, non aménagées en circulation et aires de service et de stationnement, seront obligatoirement plantées en gazon, arbustes et arbres d'ornement, à concurrence d'une surface minimale égale à 10% de la parcelle</citation>
+      </rule>
+      <rule id="IAUIDF-010">
+        <param name="B1_ART_14" nil="true" nilReason="other:NonReglemente"></param>
+        <citation>Il n'est pas fixé de coefficient d'occupation des sols ; il résulte de l'application des articles Ui3 à Ui 13.</citation>
+      </rule>
+    </rules>
+  </zone>
+  <zone code="Ue">
+    <rules>
+      <rule id="IAUIDF-000">
+        <param name="B1_T_Bande" nil="true" nilReason="other:NonRenseignable"></param>
+        <citation />
+      </rule>
+      <rule id="IAUIDF-000">
+        <param name="B1_BANDE" nil="true" nilReason="other:NonRenseignable"></param>
+        <citation />
+      </rule>
+      <rule id="IAUIDF-009">
+        <param name="B1_ART_5" nil="true" nilReason="other:NonReglemente"></param>
+        <citation>Non réglementé.</citation>
+      </rule>
+      <rule id="IAUIDF-009">
+        <param name="B1_ART_6">5.0</param>
+        <citation>Sauf dispositions contraires portées aux documents graphiques, les constructions ou bâtiments doivent être implantées par rapport à l'alignement : avec un recul au plus égal à 5 mètres en Ua ; avec un recul minimum de 5 mètres dans les secteurs Ub, y compris Uba, et Ue.</citation>
+      </rule>
+      <rule id="IAUIDF-002">
+        <param name="B1_ART_71">1.0</param>
+        <citation>La distance comptée horizontalement de tout point du bâtiment à construire hors débord de toiture (dans la limite de 0,50 mètre) au point de la limite parcellaire qui en est le plus rapproché doit être au moins égale à quatre mètres.</citation>
+      </rule>
+      <rule id="IAUIDF-002">
+        <param name="B1_ART_72">4.0</param>
+        <citation>La distance comptée horizontalement de tout point du bâtiment à construire hors débord de toiture (dans la limite de 0,50 mètre) au point de la limite parcellaire qui en est le plus rapproché doit être au moins égale à quatre mètres.</citation>
+      </rule>
+      <rule id="IAUIDF-003">
+        <param name="B1_ART_73" nil="true" nilReason="other:NonRenseignable"></param>
+        <citation />
+      </rule>
+      <rule id="IAUIDF-004">
+        <param name="B1_ART_74" nil="true" nilReason="other:NonRenseignable"></param>
+        <citation />
+      </rule>
+      <rule id="IAUIDF-005">
+        <param name="B1_ART_8">5.0</param>
+        <citation>Une distance d'au moins 4 mètres peut être imposée entre deux constructions non contigües.</citation>
+      </rule>
+      <rule id="IAUIDF-006">
+        <param name="B1_ART_9" nil="true" nilReason="other:NonReglemente"></param>
+        <citation>Non réglementé.</citation>
+      </rule>
+      <rule id="IAUIDF-007">
+        <param name="B1_ART_10_m">12.0</param>
+        <citation>La hauteur maximale des constructions est limitée à 9 mètres en Ua, 7 mètres en Ub et 12 mètres en Uba et Ue.</citation>
+      </rule>
+      <rule id="IAUIDF-008">
+        <param name="B1_ART_13" nil="true" nilReason="other:NonRenseignable"></param>
+        <citation>Le permis de construire ou d'aménager, ou la décision prise sur la déclaration préalable, peut être subordonné au maintien ou à la création d'espaces verts correspondant à l'importance de l'immeuble à construire.</citation>
+      </rule>
+      <rule id="IAUIDF-010">
+        <param name="B1_ART_14" nil="true" nilReason="other:NonReglemente"></param>
+        <citation>Non réglementé.</citation>
+      </rule>
+    </rules>
+  </zone>
+</pluFormel>
