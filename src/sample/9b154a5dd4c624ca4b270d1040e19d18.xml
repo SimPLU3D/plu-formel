@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pluFormel id="9b154a5dd4c624ca4b270d1040e19d18" name="19010_PLU_20131210" municipality="ARGENTAT-SUR-DORDOGNE">
+<pluFormel id="9b154a5dd4c624ca4b270d1040e19d18" name="19010_PLU_20131210">
 
   <zone code="U">
     <rules>
       <rule id="IAUIDF-000">
-        <param name="B1_T_Bande">-88.0</param>
+        <param name="B1_T_Bande" nil="true" nilReason="other:NonRenseignable"></param>
         <citation></citation>
       </rule>
 
       <rule id="IAUIDF-000">
-        <param name="B1_BANDE">-88.0</param>
+        <param name="B1_BANDE" nil="true" nilReason="other:NonRenseignable"></param>
         <citation></citation>
       </rule>
 
       <rule id="IAUIDF-009">
-        <param name="B1_ART_5">-88.0</param>
+        <param name="B1_ART_5" nil="true" nilReason="other:NonRenseignable"></param>
         <citation>
           Les caractéristiques des terrains doivent être compatibles avec le type d'assainissement envisagé
         </citation>
       </rule>
 
       <rule id="IAUIDF-009">
-        <param name="B1_ART_6">-88.0</param>
+        <param name="B1_ART_6" nil="true" nilReason="other:NonRenseignable"></param>
         <citation></citation>
       </rule>
 
@@ -40,7 +40,7 @@
       </rule>
 
       <rule id="IAUIDF-003">
-        <param name="B1_ART_73">-88.0</param>
+        <param name="B1_ART_73" nil="true" nilReason="other:NonRenseignable"></param>
         <citation></citation>
       </rule>
 
@@ -52,35 +52,35 @@
       </rule>
 
       <rule id="IAUIDF-005">
-        <param name="B1_ART_8">-99.0</param>
+        <param name="B1_ART_8" nil="true" nilReason="other:NonReglemente"></param>
         <citation>
           Non réglementé.
         </citation>
       </rule>
 
       <rule id="IAUIDF-006">
-        <param name="B1_ART_9">-99.0</param>
+        <param name="B1_ART_9" nil="true" nilReason="other:NonReglemente"></param>
         <citation>
           Non réglementé.
         </citation>
       </rule>
 
       <rule id="IAUIDF-007">
-        <param name="B1_ART_10_m">-88.0</param>
+        <param name="B1_ART_10_m" nil="true" nilReason="other:NonRenseignable"></param>
         <citation>
         Pour les constructions à usage d'habitation, la hauteur des constructions ne doit pas excéder un étage sur rez-de-chaussée + combles aménageables, soit 7 mètres maximum à l'égout du toit par rapport au terrain naturel pour les maisons individuelles et deux étages sur rez-de-chaussée + combles aménageables, soit 10 mètres maximum à l'égout du toit par rapport au terrain naturel pour le petit collectif, ou ne pas dépasser le gabarit des immeubles avoisinants.
         </citation>
       </rule>
 
       <rule id="IAUIDF-008">
-        <param name="B1_ART_13">-88.0</param>
+        <param name="B1_ART_13" nil="true" nilReason="other:NonRenseignable"></param>
         <citation>
           Toute projet contigu à une plantation de verger d'exploitation devra présenter une zone tampon végétalisée de type haie arbustive.
         </citation>
       </rule>
 
       <rule id="IAUIDF-010">
-        <param name="B1_ART_14">-99.0</param>
+        <param name="B1_ART_14" nil="true" nilReason="other:NonReglemente"></param>
         <citation>
           Non réglementé.
         </citation>
@@ -91,22 +91,22 @@
   <zone code="Us">
     <rules>
       <rule id="IAUIDF-000">
-        <param name="B1_T_Bande">-88.0</param>
+        <param name="B1_T_Bande" nil="true" nilReason="other:NonRenseignable"></param>
         <citation></citation>
       </rule>
 
       <rule id="IAUIDF-000">
-        <param name="B1_BANDE">-88.0</param>
+        <param name="B1_BANDE" nil="true" nilReason="other:NonRenseignable"></param>
         <citation></citation>
       </rule>
 
       <rule id="IAUIDF-009">
-        <param name="B1_ART_5">-88.0</param>
+        <param name="B1_ART_5" nil="true" nilReason="other:NonRenseignable"></param>
         <citation>Les caractéristiques des terrains doivent être compatibles avec le type d'assainissement envisagé</citation>
       </rule>
 
       <rule id="IAUIDF-009">
-        <param name="B1_ART_6">-88.0</param>
+        <param name="B1_ART_6" nil="true" nilReason="other:NonRenseignable"></param>
         <citation></citation>
       </rule>
 
@@ -118,31 +118,31 @@
       </rule>
 
       <rule id="IAUIDF-002">
-        <param name="B1_ART_72">-88.0</param>
+        <param name="B1_ART_72" nil="true" nilReason="other:NonRenseignable"></param>
         <citation></citation>
       </rule>
 
       <rule id="IAUIDF-003">
-        <param name="B1_ART_73">-88.0</param>
+        <param name="B1_ART_73" nil="true" nilReason="other:NonRenseignable"></param>
         <citation></citation>
       </rule>
 
       <rule id="IAUIDF-004">
-        <param name="B1_ART_74">-88.0</param>
+        <param name="B1_ART_74" nil="true" nilReason="other:NonRenseignable"></param>
         <citation>
           Toute construction doit être : soit implantée sur les limites séparatives, soit à une distance telle que les façades devront être écartées d'une distance au moins égale à la moitié de la hauteur du bâti avec un minimum de 3 mètres.
         </citation>
       </rule>
 
       <rule id="IAUIDF-005">
-        <param name="B1_ART_8">-99.0</param>
+        <param name="B1_ART_8" nil="true" nilReason="other:NonReglemente"></param>
         <citation>
           Non réglementé.
         </citation>
       </rule>
 
       <rule id="IAUIDF-006">
-        <param name="B1_ART_9">-99.0</param>
+        <param name="B1_ART_9" nil="true" nilReason="other:NonReglemente"></param>
         <citation>
           Non réglementé.
         </citation>
@@ -156,12 +156,12 @@
       </rule>
 
       <rule id="IAUIDF-008">
-        <param name="B1_ART_13">-88.0</param>
+        <param name="B1_ART_13" nil="true" nilReason="other:NonRenseignable"></param>
         <citation></citation>
       </rule>
 
       <rule id="IAUIDF-010">
-        <param name="B1_ART_14">-99.0</param>
+        <param name="B1_ART_14" nil="true" nilReason="other:NonReglemente"></param>
         <citation>
           Non réglementé.
         </citation>
@@ -172,24 +172,24 @@
   <zone code="Up">
     <rules>
       <rule id="IAUIDF-000">
-        <param name="B1_T_Bande">-88.0</param>
+        <param name="B1_T_Bande" nil="true" nilReason="other:NonRenseignable"></param>
         <citation></citation>
       </rule>
 
       <rule id="IAUIDF-000">
-        <param name="B1_BANDE">-88.0</param>
+        <param name="B1_BANDE" nil="true" nilReason="other:NonRenseignable"></param>
         <citation></citation>
       </rule>
 
       <rule id="IAUIDF-009">
-        <param name="B1_ART_5">-88.0</param>
+        <param name="B1_ART_5" nil="true" nilReason="other:NonRenseignable"></param>
         <citation>
           Les caractéristiques des terrains doivent être compatibles avec le type d'assainissement envisagé
         </citation>
       </rule>
 
       <rule id="IAUIDF-009">
-        <param name="B1_ART_6">-88.0</param>
+        <param name="B1_ART_6" nil="true" nilReason="other:NonRenseignable"></param>
         <citation></citation>
       </rule>
 
@@ -201,31 +201,31 @@
       </rule>
 
       <rule id="IAUIDF-002">
-        <param name="B1_ART_72">-88.0</param>
+        <param name="B1_ART_72" nil="true" nilReason="other:NonRenseignable"></param>
         <citation>
           Au cas où les constructions jouxteraient un immeuble comportant des baies, un retrait de 1 mètre 90 pourra être accordé conformément aux dispositions des articles 678 et 679 du code civil.
         </citation>
       </rule>
 
       <rule id="IAUIDF-003">
-        <param name="B1_ART_73">-88.0</param>
+        <param name="B1_ART_73" nil="true" nilReason="other:NonRenseignable"></param>
         <citation></citation>
       </rule>
 
       <rule id="IAUIDF-004">
-        <param name="B1_ART_74">-88.0</param>
+        <param name="B1_ART_74" nil="true" nilReason="other:NonRenseignable"></param>
         <citation></citation>
       </rule>
 
       <rule id="IAUIDF-005">
-        <param name="B1_ART_8">-88.0</param>
+        <param name="B1_ART_8" nil="true" nilReason="other:NonRenseignable"></param>
         <citation>
           La continuité des volumes bâtis sera recherchée.
         </citation>
       </rule>
 
       <rule id="IAUIDF-006">
-        <param name="B1_ART_9">-88.0</param>
+        <param name="B1_ART_9" nil="true" nilReason="other:NonRenseignable"></param>
         <citation>
           Sur les terrains comportant des bâtiments protégés au titre de l'article L.123-1-7° du code de l'urbanisme, aucune emprise supplémentaire n'est autorisée à l'exception du complètement d'anciennes compositions qui ont été amputées et ce, sans limite d'emprise.
         </citation>
@@ -239,14 +239,14 @@
       </rule>
 
       <rule id="IAUIDF-008">
-        <param name="B1_ART_13">-88.0</param>
+        <param name="B1_ART_13" nil="true" nilReason="other:NonRenseignable"></param>
         <citation>
           L'occupation de l'espace libre est donc laissé à l'appréciation de chaque propriétaire. 
         </citation>
       </rule>
 
       <rule id="IAUIDF-010">
-        <param name="B1_ART_14">-99.0</param>
+        <param name="B1_ART_14" nil="true" nilReason="other:NonReglemente"></param>
         <citation>
           Non réglementé.
         </citation>
@@ -257,24 +257,24 @@
   <zone code="Ux">
     <rules>
       <rule id="IAUIDF-000">
-        <param name="B1_T_Bande">-88.0</param>
+        <param name="B1_T_Bande" nil="true" nilReason="other:NonRenseignable"></param>
         <citation></citation>
       </rule>
 
       <rule id="IAUIDF-000">
-        <param name="B1_BANDE">-88.0</param>
+        <param name="B1_BANDE" nil="true" nilReason="other:NonRenseignable"></param>
         <citation></citation>
       </rule>
 
       <rule id="IAUIDF-009">
-        <param name="B1_ART_5">-88.0</param>
+        <param name="B1_ART_5" nil="true" nilReason="other:NonRenseignable"></param>
         <citation>
           Les caractéristiques des terrains doivent être compatibles avec le type d'assainissement envisagé
         </citation>
       </rule>
 
       <rule id="IAUIDF-009">
-        <param name="B1_ART_6">-88.0</param>
+        <param name="B1_ART_6" nil="true" nilReason="other:NonRenseignable"></param>
         <citation></citation>
       </rule>
 
@@ -293,7 +293,7 @@
       </rule>
 
       <rule id="IAUIDF-003">
-        <param name="B1_ART_73">-88.0</param>
+        <param name="B1_ART_73" nil="true" nilReason="other:NonRenseignable"></param>
         <citation></citation>
       </rule>
 
@@ -312,28 +312,28 @@
       </rule>
 
       <rule id="IAUIDF-006">
-        <param name="B1_ART_9">-99.0</param>
+        <param name="B1_ART_9" nil="true" nilReason="other:NonReglemente"></param>
         <citation>
           Non réglementé. 
         </citation>
       </rule>
 
       <rule id="IAUIDF-007">
-        <param name="B1_ART_10_m">-99.0</param>
+        <param name="B1_ART_10_m" nil="true" nilReason="other:NonReglemente"></param>
         <citation>
           Non réglementé. 
         </citation>
       </rule>
 
       <rule id="IAUIDF-008">
-        <param name="B1_ART_13">-88.0</param>
+        <param name="B1_ART_13" nil="true" nilReason="other:NonRenseignable"></param>
         <citation>
           Les espaces non bâtis devront être aménagés que ce soit de manière végétale ou minérale en tenant compte de la bonne intégration des aménagements dans le paysage.
         </citation>
       </rule>
 
       <rule id="IAUIDF-010">
-        <param name="B1_ART_14">-99.0</param>
+        <param name="B1_ART_14" nil="true" nilReason="other:NonReglemente"></param>
         <citation>
           Non réglementé.
         </citation>
