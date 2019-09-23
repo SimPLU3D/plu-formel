@@ -12,7 +12,7 @@ Part minimale d'espaces libres de toute construction exprimée par rapport à la
 
 Ratio compris entre 0 et 1.
 
-Remarque : Si valeur exprimée en %, convertir en ratio. Ex : 5%= 5/100 = 0,05 ; 85%= 85/100 = 0.85
+Remarque : Si valeur exprimée en %, convertir en ratio. Ex : 5% = 5/100 = 0.05 ; 85% = 85/100 = 0.85
 
 ## Explications
 

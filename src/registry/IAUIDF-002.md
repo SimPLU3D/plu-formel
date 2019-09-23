@@ -11,15 +11,20 @@
 
 Implantation en limite séparatives :
 
-* 0 : non, retrait imposé (cf.72)
-* 1 : Oui des deux côtés
-* 2 : Oui, mais sur un côté seulement
+* 0 : Non, aucun retrait imposé par rapport au limites séparatives.
+* 1 : Oui retrait imposé par rapport aux limites séparatives.
+* 2 : Oui, retrait imposé mais uniquement sur un côté.
 
 ### B1_ART_72
 
 Distance minimale des constructions par rapport aux limites séparatives imposée.
 
+* Valeur numérique si B1_ART_71 est 1 ou 2.
+* Pas de valeur sinon (-88 ou -99).
+
 ## Explications
+
+*Le paragraphe ci dessous fait référence à une ancienne version et sera prochainement modifié*
 
 Suivant les cas imposés par {{B1_ART_71}} :
 * si {{B1_ART_71}} = 0, on ne peut construire à moins de {{B1_ART_72}} m des limites latérales ;

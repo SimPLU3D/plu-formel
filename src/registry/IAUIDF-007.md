@@ -26,11 +26,11 @@ Unité de mesure de la hauteur du bâtiment:
 
 Hauteur maximale autorisée.
 
-Valeur maximale de hauteur en m (selon le mode) 
+Valeur maximale de hauteur exprimé selon le paramètre {{B1_ART_10T}}
 
 Valeur particulière :
 
-- 99 = non réglementé
+- -99 = non réglementé
 
 ## Explications
 

@@ -8,7 +8,7 @@
 
 ### B1_ART_5
 
-Désigne la surface minimale à partir de laquelle la parcelle est constructible. Valeur positive.
+Désigne la surface minimale à partir de laquelle la parcelle est constructible. Valeur positive en m².
 
 ## Explications
 

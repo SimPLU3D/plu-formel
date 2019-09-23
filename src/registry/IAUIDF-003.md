@@ -12,7 +12,7 @@ Distance minimale des constructions par rapport à la limite séparative de fond
 
 Valeurs particulières :
 
-* 99 : non réglementé
+* -99 : non réglementé
 
 ## Explications
 
