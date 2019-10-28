@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-	xmlns="https://www.geoportail-urbanisme.gouv.fr/schemas/plu-formel/0.1"
-	targetNamespace="https://www.geoportail-urbanisme.gouv.fr/schemas/plu-formel/0.1"
+	xmlns="https://www.geoportail-urbanisme.gouv.fr/schemas/plu-formel"
+	targetNamespace="https://www.geoportail-urbanisme.gouv.fr/schemas/plu-formel"
 	version="0.1" elementFormDefault="qualified">
 
 	<xs:annotation>
