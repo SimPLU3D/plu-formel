@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+  <title>registry/IAUIDF-004.md</title>
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/github.min.css">
+  <style>
+    html, body {
+      width: 95%;
+      margin: auto;
+      padding-bottom: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <article class="markdown-body">
+    <h1 id="iauidf-004-contrainte-de-prospect-par-rapport-aux-limites-s-paratives"><a href="#iauidf-004-contrainte-de-prospect-par-rapport-aux-limites-s-paratives" class="anchor"></a>IAUIDF-004 - Contrainte de prospect par rapport aux limites séparatives</h1><h2 id="mod-le-de-phrase"><a href="#mod-le-de-phrase" class="anchor"></a>Modèle de phrase</h2><blockquote>
+<p>La hauteur doit être inférieure à {{B1_ART_74}} fois la distance aux limites séparatives latérales et de fond de la parcelle.</p>
+</blockquote>
+<h2 id="param-tres"><a href="#param-tres" class="anchor"></a>Paramètres</h2><h3 id="b1_art_74"><a href="#b1_art_74" class="anchor"></a>B1_ART_74</h3><p>Distance minimale des constructions par rapport aux limites séparatives relative à la hauteur du bâtiment.</p>
+<ul>
+<li>1 : Retrait de la valeur de la hauteur, H</li>
+<li>2 : Retrait de la moitié de la valeur de hauteur, H / 2</li>
+</ul>
+<h2 id="explications"><a href="#explications" class="anchor"></a>Explications</h2><p>{{B1_ART_74}} représente la pente du plan sous lequel le bâtiment doit se trouver.</p>
+<p><img src="img/IAUIDF/IAUIDF-004.png" alt="Image montrant la limitation de la hauteur maximale en fonction du coefficient {{B1_ART_74}} "></p>
+<h2 id="impl-mentation"><a href="#impl-mentation" class="anchor"></a>Implémentation</h2><p>La vérification de la distance s&#39;effectue dans la classe PredicateIAUIDF. Si le bâtiment doit être collé sur un des bords de la parcelle (cf <a href="RENNES-003.html">RENNES-003.md</a>), alors la limite à laquel le bâtiment est collé n&#39;est pas prise en compte.</p>
+
+  </article>
+
+  <!-- hightlight.pack.js -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</body>
+
+</html>

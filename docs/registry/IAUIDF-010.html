@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+  <title>registry/IAUIDF-010.md</title>
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/github.min.css">
+  <style>
+    html, body {
+      width: 95%;
+      margin: auto;
+      padding-bottom: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <article class="markdown-body">
+    <h1 id="iauidf-010-coefficient-d-39-occupation-du-sol"><a href="#iauidf-010-coefficient-d-39-occupation-du-sol" class="anchor"></a>IAUIDF-010 - Coefficient d&#39;occupation du sol</h1><h2 id="mod-le-de-phrase"><a href="#mod-le-de-phrase" class="anchor"></a>Modèle de phrase</h2><blockquote>
+<p>Le Coefficient d&#39;Occupation du Sol doit être inférieur à {{B1_ART_14}}.</p>
+</blockquote>
+<h2 id="param-tres"><a href="#param-tres" class="anchor"></a>Paramètres</h2><h3 id="b1_art_14"><a href="#b1_art_14" class="anchor"></a>B1_ART_14</h3><p>Coefficient d&#39;occupation du sol.</p>
+<p>Il s&#39;agit du rapport entre la surface de plancher bâti et l&#39;air de la parcelle. La surface de plancher représente la surface de tous les planchers de tous les étages d&#39;un bâtiment.</p>
+<p>Ratio compris entre 0 et 1.</p>
+<h2 id="explications"><a href="#explications" class="anchor"></a>Explications</h2><p><img src="img/IAUIDF/IAUIDF-010.png" alt="Image montrant la contrainte de coefficient d&#39;occupation du sol"></p>
+<h2 id="impl-mentation"><a href="#impl-mentation" class="anchor"></a>Implémentation</h2><p>La vérification du ratio s&#39;effectue dans la classe PredicateIAUIDF. Seule la valeur de la première bande est prise en compte.</p>
+<p>L&#39;image suivante illustre avec deux boîtes comment SimPLU3D calcule la surface de plancher en considérant les différentes composantes issues des intersections entre boîtes.</p>
+<p><img src="img/IAUIDF/SurfacePlancherCalculation.png" alt="Image illustrant le calcul de la surface de plancher dans SimPLU3D"></p>
+<p><strong>Note :</strong> Dans le cadre des travaux avec l&#39;IAU-IDF, cet article a été désactivé car rendu caduque par la loi ALLUR.</p>
+
+  </article>
+
+  <!-- hightlight.pack.js -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</body>
+
+</html>

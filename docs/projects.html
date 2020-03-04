@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+  <title>projects.md</title>
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/github.min.css">
+  <style>
+    html, body {
+      width: 95%;
+      margin: auto;
+      padding-bottom: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <article class="markdown-body">
+    <h1 id="relation-possible-avec-d-39-autres-projets"><a href="#relation-possible-avec-d-39-autres-projets" class="anchor"></a>Relation possible avec d&#39;autres projets</h1><h2 id="standard-cnig-et-g-oportail-de-l-39-urbanisme"><a href="#standard-cnig-et-g-oportail-de-l-39-urbanisme" class="anchor"></a>Standard CNIG et Géoportail de l&#39;Urbanisme</h2><p>Le Géoportail de l&#39;Urbanisme pourrait exposer le registre des règles d&#39;urbanisme (les données de ce registre gagnerait toutefois à être hébergée dans un dépôt GitHub pour permettre des contributions)</p>
+<p>Le standard CNIG pourrait proposer des extensions pour l&#39;instanciation de ces règles. Exemple : permettre l&#39;ajout d&#39;un fichier <code>reglement.json</code> avec une structure permettant d&#39;instancier les règles générales et les règles s&#39;appliquant sur chaque zone, etc.)</p>
+<h2 id="smartplu"><a href="#smartplu" class="anchor"></a>SmartPLU</h2><p>SmartPLU extrait les informations des textes des documents d&#39;urbanisme présents sur le <a href="https://www.geoportail-urbanisme.gouv.fr" target="_blank">Géoportail de l&#39;urbanisme</a> à l&#39;aide de technique d&#39;IA.</p>
+<p>SmartPLU a en outre vocation à fournir les paramètres des règles d&#39;urbanisme dans une modélisation comptabible avec ce registre de règle.</p>
+<p>Une première fourniture de données a été réalisée au format CSV : <a href="sample/SmartPLU-20180913.csv">sample/SmartPLU-20180913.csv</a></p>
+<p>Des discussions sont en cours sur un format XML qui permettra la fourniture d&#39;information plus riche (variantes d&#39;une même règle trouvée sur la zone, citation des textes,...)</p>
+<h2 id="apur"><a href="#apur" class="anchor"></a>APUR</h2><p>L&#39;APUR publie en opendata une table <a href="http://opendata.apur.org/datasets/plu-hauteur/data" target="_blank">PLU HAUTEUR</a> conceptuellement proche de l&#39;instanciation CSV des règles d&#39;urbanisme proposée par SimPLU.</p>
+<p>On y trouve en effet une colonne &quot;Règlement hauteur&quot; prenant par exemple pour valeur &quot;de 16 à 24m&quot;.</p>
+<h2 id="plu-manager"><a href="#plu-manager" class="anchor"></a>PLU Manager</h2><p><a href="https://www.plan-local-d-urbanisme.fr/outil-logiciel-plu-manager/" target="_blank">PLU Manager</a> génère les textes de document d&#39;urbanisme. La fonction &quot;Duplication d&#39;articles existants&quot; n&#39;est pas très loin d&#39;une fonctionnalité de création d&#39;article à partir d&#39;un modèle de phrase fourni par un registre de règle.</p>
+<h2 id="d-39-autres-id-es-d-39-autres-r-f-rences-"><a href="#d-39-autres-id-es-d-39-autres-r-f-rences-" class="anchor"></a>D&#39;autres idées, d&#39;autres références?</h2><p>Si vous connaissez d&#39;autres projets potentiellement concernés, n&#39;hésitez pas à <a href="https://github.com/SimPLU3D/plu-formel/issues" target="_blank">faire une &quot;issue&quot; sur le projet github SimPLU3D/plu-formel</a></p>
+
+  </article>
+
+  <!-- hightlight.pack.js -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</body>
+
+</html>

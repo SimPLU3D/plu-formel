@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+  <title>legacy-csv.md</title>
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/github.min.css">
+  <style>
+    html, body {
+      width: 95%;
+      margin: auto;
+      padding-bottom: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <article class="markdown-body">
+    <h1 id="instanciation-des-r-gles-par-fichier-csv-d-pr-ci-"><a href="#instanciation-des-r-gles-par-fichier-csv-d-pr-ci-" class="anchor"></a>Instanciation des règles par fichier CSV (déprécié)</h1><p>Tant que les noms des paramètres des règles d&#39;urbanisme demeurent uniques, il est possible de mettre facilement à plat les informations en définissant des colonnes correspondant au nom des paramètres.</p>
+<h2 id="colonnes-pour-l-39-identification-du-document-d-39-urbanisme"><a href="#colonnes-pour-l-39-identification-du-document-d-39-urbanisme" class="anchor"></a>Colonnes pour l&#39;identification du document d&#39;urbanisme</h2><ul>
+<li><strong>DOCUMENT_ID</strong> : Identifiant du document d&#39;urbanisme sur le GpU (ex : <code>https://www.geoportail-urbanisme.gouv.fr/document/by-id/69f0e42b13c577e63186146f9f1e65c5</code>).</li>
+<li><strong>DOCUMENT_NAME</strong> : Nom de dossier du document d&#39;urbanisme standardisé par le CNIG (ex : <code>25349_PLU_20010101</code>).</li>
+</ul>
+<h2 id="colonnes-pour-l-39-identification-de-la-zone-d-39-urbanisme"><a href="#colonnes-pour-l-39-identification-de-la-zone-d-39-urbanisme" class="anchor"></a>Colonnes pour l&#39;identification de la zone d&#39;urbanisme</h2><ul>
+<li><strong>INSEE</strong> : Code INSEE de la commune associé à la zone d&#39;urbanisme (anciennement <code>ZONE_URBA.INSEE</code> qui a été migré dans les noms de fichier dans le standard CNIG 2017)</li>
+<li><strong>NOM_COM</strong> : Nom de la commune associée à la zone d&#39;urbanisme</li>
+<li><strong>LIBELLE</strong> : Libellé de zone d&#39;urbanisme (<code>ZONE_URBA.LIBELLE</code> dans les standards CNIG)</li>
+</ul>
+<h2 id="colonnes-pour-l-39-instanciation-des-r-gles"><a href="#colonnes-pour-l-39-instanciation-des-r-gles" class="anchor"></a>Colonnes pour l&#39;instanciation des règles</h2><p>Pour instancier les règles sur les zones d&#39;urbanisme, il suffit d&#39;ajouter des colonnes correspondant aux paramètres de ces règles. Par exemple, on aura :</p>
+<ul>
+<li><p>Pour IAUIDF-000 : <a href="registry/IAUIDF-000.html#B1_BANDE">B1_BANDE</a> et <a href="registry/IAUIDF-000.html#B1_T_BANDE">B1_T_BANDE</a></p>
+</li>
+<li><p>Pour IAUIDF-001 : <a href="registry/IAUIDF-001.html#B1_ART_6">B1_ART_6</a></p>
+</li>
+<li><p>Pour IAUIDF-002 : <a href="registry/IAUIDF-002.html#B1_ART_71">B1_ART_71</a> et <a href="registry/IAUIDF-002.html#B1_ART_72">B1_ART_72</a></p>
+</li>
+<li><p>Pour IAUIDF-003 : <a href="registry/IAUIDF-003.html#B1_ART_73">B1_ART_73</a></p>
+</li>
+<li><p>Pour IAUIDF-004 : <a href="registry/IAUIDF-004.html#B1_ART_74">B1_ART_74</a></p>
+</li>
+<li><p>Pour IAUIDF-005 : <a href="registry/IAUIDF-005.html#B1_ART_8">B1_ART_8</a></p>
+</li>
+<li><p>Pour IAUIDF-006 : <a href="registry/IAUIDF-006.html#B1_ART_9">B1_ART_9</a></p>
+</li>
+<li><p>Pour IAUIDF-007 : <a href="registry/IAUIDF-007.html#B1_ART_10_m">B1_ART_10</a></p>
+</li>
+<li><p>Pour IAUIDF-008 : <a href="registry/IAUIDF-008.html#B1_ART_13">B1_ART_13</a></p>
+</li>
+<li><p>Pour IAUIDF-009 : <a href="registry/IAUIDF-009.html#B1_ART_5">B1_ART_5</a></p>
+</li>
+<li><p>Pour IAUIDF-010 : <a href="registry/IAUIDF-010.html#B1_ART_14">B1_ART_14</a></p>
+</li>
+</ul>
+
+  </article>
+
+  <!-- hightlight.pack.js -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</body>
+
+</html>

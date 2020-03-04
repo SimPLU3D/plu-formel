@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns="https://www.geoportail-urbanisme.gouv.fr/schemas/plu-formel"
+	targetNamespace="https://www.geoportail-urbanisme.gouv.fr/schemas/plu-formel"
+	version="0.1" elementFormDefault="qualified">
+
+	<xs:annotation>
+		<xs:documentation>Formalisation des règles présentes dans les
+			règlements d'urbanisme pour interprétation par des outils tels
+			SimPLU3D</xs:documentation>
+	</xs:annotation>
+
+	<!-- Modélisation des règles -->
+
+	<xs:complexType name="RuleParamType">
+		<xs:annotation>
+			<xs:documentation>Paramètre nommé d'une règle</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="name" type="xs:string">
+				</xs:attribute>
+        <xs:attribute name="nil" type="xs:boolean" use="optional">
+          <xs:annotation>
+            <xs:documentation>"true" si le paramètre n'a pas de valeur.</xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="nilReason" type="xs:string" use="optional">
+          <xs:annotation>
+            <xs:documentation>Si nil est "true", explique l'absence de valeur, peut-être "other:NonRenseigne" ou "other:NonReglemente"</xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+
+	<xs:complexType name="RuleType">
+		<xs:annotation>
+			<xs:documentation>Une règle d'urbanisme</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="param" type="RuleParamType"
+				minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Les valeurs des paramètres de la règle d'urbanisme</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="citation" type="xs:string" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Extrait du document d'urbanisme correspondant à cette règle</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string">
+			<xs:annotation>
+				<xs:documentation>Identifiant de la règle d'urbanisme. La fiche
+					descriptive est disponible à l'adresse
+					https://www.geoportail-urbanisme.gouv.fr/schemas/plu-formel/0.1/registry/{id}
+				</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+
+
+	<xs:complexType name="RulesType">
+		<xs:annotation>
+			<xs:documentation>Une liste de règle d'urbanisme</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="rule" type="RuleType" minOccurs="0"
+				maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+
+
+	<!-- Association des règles aux zones des documents d'urbanisme -->
+
+	<xs:complexType name="ZoneType">
+		<xs:annotation>
+			<xs:documentation>Une zone d'urbanisme porteuse de règles</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="rules" type="RulesType" minOccurs="0"
+				maxOccurs="1" />
+		</xs:sequence>
+		<xs:attribute name="code" type="xs:string">
+			<xs:annotation>
+				<xs:documentation>Le code la zone d'urbanisme (ex : Ua), équivalent à ZONE_URBA.LIBELLE dans le standard CNIG PLU</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+
+	<xs:complexType name="DocumentType">
+		<xs:annotation>
+			<xs:documentation>Un document d'urbanisme définit comme un ensemble de zones porteuses de règles</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="zone" type="ZoneType" minOccurs="1" maxOccurs="unbounded" />
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string">
+			<xs:annotation>
+				<xs:documentation>Identifiant du document d'urbanisme sur le Géoportail de l'Urbanisme (ex : 69f0e42b13c577e63186146f9f1e65c5)</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="name" type="xs:string">
+			<xs:annotation>
+				<xs:documentation>Nom du dossier du document d'urbanisme (ex : 69f0e42b13c577e63186146f9f1e65c5)</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+
+
+	<xs:element name="pluFormel" type="DocumentType"></xs:element>
+
+
+</xs:schema>
