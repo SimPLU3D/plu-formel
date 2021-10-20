@@ -24,17 +24,17 @@
 </blockquote>
 <h2 id="param-tres"><a href="#param-tres" class="anchor"></a>Paramètres</h2><h3 id="b1_art_10t"><a href="#b1_art_10t" class="anchor"></a>B1_ART_10T</h3><p>Unité de mesure de la hauteur du bâtiment:</p>
 <ul>
-<li>1 : Exprimée par rapport au nombre de niveau R.</li>
-<li>2 : Exprimée en m du sol au faîtage.</li>
-<li>3 : Exprimée en m par rapport à la hauteur plafond.</li>
-<li>4 : Exprimée en m du sol au point le plus haut.</li>
-<li>5 : Exprimée en m par rapport à la hauteur de façade à l&#39;égout.</li>
-<li>6 : Exprimée en m par référence à la hauteur NGF hors édifices.</li>
-<li>7 : Exprimée en m par rapport à la hauteur à la côte du trottoir.</li>
-<li>8 : Exprimée en m par rapport au point le plus haut hors cheminées.</li>
-<li>9 : Exprimée en m par rapport au point le plus haut hors cheminées, ouvrages techniques.</li>
-<li>10 : Exprimée en m du sol à l&#39;acrotère.</li>
-<li>11 : Exprimée en m par rapport au point le plus haut tout inclus.</li>
+<li>1 : Exprimée par rapport au nombre de niveau R.</li>
+<li>2 : Exprimée en m du sol au faîtage.</li>
+<li>3 : Exprimée en m par rapport à la hauteur plafond.</li>
+<li>4 : Exprimée en m du sol au point le plus haut.</li>
+<li>5 : Exprimée en m par rapport à la hauteur de façade à l&#39;égout.</li>
+<li>6 : Exprimée en m par référence à la hauteur NGF hors édifices.</li>
+<li>7 : Exprimée en m par rapport à la hauteur à la côte du trottoir.</li>
+<li>8 : Exprimée en m par rapport au point le plus haut hors cheminées.</li>
+<li>9 : Exprimée en m par rapport au point le plus haut hors cheminées, ouvrages techniques.</li>
+<li>10 : Exprimée en m du sol à l&#39;acrotère.</li>
+<li>11 : Exprimée en m par rapport au point le plus haut tout inclus.</li>
 </ul>
 <h3 id="b1_art_10"><a href="#b1_art_10" class="anchor"></a>B1_ART_10</h3><p>Hauteur maximale autorisée.</p>
 <p>Valeur maximale de hauteur exprimé selon le paramètre {{B1_ART_10T}}</p>
@@ -51,6 +51,30 @@
   <!-- hightlight.pack.js -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
+
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        extensions: ["tex2jax.js"],
+        jax: ["input/TeX","output/HTML-CSS"],
+        tex2jax: {
+            inlineMath: [["$","$"],["\\(","\\)"]],
+            displayMath: [["$$","$$"],["\\[","\\]"]],
+            processEscapes: true,
+            processClass: "language-mathjax"
+        }
+      });
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_CHTML.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.8/mermaid.min.js"></script>
+    <script>mermaid.init({
+        startOnLoad: true,
+        flowchart: {
+          useMaxWidth: true
+        }
+      }, ".language-mermaid");</script>
 </body>
 
 </html>

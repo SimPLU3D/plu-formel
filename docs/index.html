@@ -20,7 +20,7 @@
 <body>
   <article class="markdown-body">
     <h1 id="registre-de-r-gles-simplu3d"><a href="#registre-de-r-gles-simplu3d" class="anchor"></a>Registre de règles SimPLU3D</h1><blockquote>
-<p>ATTENTION : <a href="https://mborne.github.io/plu-formel/" target="_blank">https://mborne.github.io/plu-formel/</a> a vocation sur le long terme à être remplacé par <a href="https://www.geoportail-urbanisme.gouv.fr/schemas/plu-formel/1.0" target="_blank">https://www.geoportail-urbanisme.gouv.fr/schemas/plu-formel/1.0</a></p>
+<p>ATTENTION : <a href="https://simplu3d.github.io/plu-formel/" target="_blank">https://simplu3d.github.io/plu-formel/</a> a vocation sur le long terme à être remplacé par <a href="https://www.geoportail-urbanisme.gouv.fr/schemas/plu-formel/1.0" target="_blank">https://www.geoportail-urbanisme.gouv.fr/schemas/plu-formel/1.0</a></p>
 </blockquote>
 <h2 id="description"><a href="#description" class="anchor"></a>Description</h2><p>L&#39;approche de formalisation des PLU présentée ici a été expérimentée dans le cadre du projet SimPLU3D. Elle résulte des constats suivants :</p>
 <ul>
@@ -81,7 +81,7 @@
 </ul>
 <h3 id="registre-de-r-gles"><a href="#registre-de-r-gles" class="anchor"></a>Registre de règles</h3><p>Un registre de règles de recenser et décrire un ensemble de règles connues.</p>
 <p>En outre, il permet d&#39;obtenir une fiche descriptive associée à l&#39;identifiant de règle. Par exemple :</p>
-<p><a href="https://mborne.github.io/plu-formel/registry/IAUIDF-001" target="_blank">https://mborne.github.io/plu-formel/registry/IAUIDF-001</a></p>
+<p><a href="https://simplu3d.github.io/plu-formel/registry/IAUIDF-001" target="_blank">https://simplu3d.github.io/plu-formel/registry/IAUIDF-001</a></p>
 <h3 id="exemple-de-registre"><a href="#exemple-de-registre" class="anchor"></a>Exemple de registre</h3><p>Voir <a href="registry/index.html">Registre des règles SimPLU</a> pour les règles IAUIDF/CartoPLU+ et les règles du démonstrateur Rennes Métropole.</p>
 <h2 id="instanciation-des-r-gles-d-39-urbanisme"><a href="#instanciation-des-r-gles-d-39-urbanisme" class="anchor"></a>Instanciation des règles d&#39;urbanisme</h2><h3 id="principe"><a href="#principe" class="anchor"></a>Principe</h3><p>Instancier les règles d&#39;urbanisme revient à fournir la liste des règles et leurs paramètres s&#39;appliquant sur les différentes zones d&#39;un PLU. </p>
 <p>On propose dans un premier temps d&#39;annexer ces informations aux zones d&#39;un document d&#39;urbanisme en reprenant ces informations :</p>
@@ -156,6 +156,30 @@
   <!-- hightlight.pack.js -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
+
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        extensions: ["tex2jax.js"],
+        jax: ["input/TeX","output/HTML-CSS"],
+        tex2jax: {
+            inlineMath: [["$","$"],["\\(","\\)"]],
+            displayMath: [["$$","$$"],["\\[","\\]"]],
+            processEscapes: true,
+            processClass: "language-mathjax"
+        }
+      });
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_CHTML.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.8/mermaid.min.js"></script>
+    <script>mermaid.init({
+        startOnLoad: true,
+        flowchart: {
+          useMaxWidth: true
+        }
+      }, ".language-mermaid");</script>
 </body>
 
 </html>

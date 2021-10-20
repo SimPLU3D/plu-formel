@@ -1,6 +1,6 @@
 # Registre de règles SimPLU3D
 
-> ATTENTION : https://mborne.github.io/plu-formel/ a vocation sur le long terme à être remplacé par https://www.geoportail-urbanisme.gouv.fr/schemas/plu-formel/1.0
+> ATTENTION : https://simplu3d.github.io/plu-formel/ a vocation sur le long terme à être remplacé par https://www.geoportail-urbanisme.gouv.fr/schemas/plu-formel/1.0
 
 ## Description
 
@@ -50,7 +50,7 @@ Un registre de règles de recenser et décrire un ensemble de règles connues.
 
 En outre, il permet d'obtenir une fiche descriptive associée à l'identifiant de règle. Par exemple :
 
-https://mborne.github.io/plu-formel/registry/IAUIDF-001
+https://simplu3d.github.io/plu-formel/registry/IAUIDF-001
 
 
 
