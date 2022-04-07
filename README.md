@@ -18,7 +18,7 @@ Formaliser entièrement les documents d'urbanisme est une problématique complex
 * Le contexte cartographique est complexe (références aux routes, etc.)
 * La conditionnelle est complexe (les règles dépendent du type de construction, etc.)
 
-**On se concentre d'abord sur la formalisation de règles "primitives" et on traitera plus tard la composition des règles**.
+**On se concentre ici sur la formalisation de règles "primitives" et on traitera plus tard la composition des règles**.
 
 En outre, des travaux sont en cours pour affiner la modélisation de ce registre de règle avec l'équipe SmartPLU. Ces travaux portent en particulier sur :
 
@@ -57,7 +57,7 @@ Exemple : [Registre des règles SimPLU](registry/index.md) pour les règles IAUI
 
 Instancier les règles d'urbanisme revient à fournir la liste des règles et leurs paramètres correspondant s'appliquant sur les différentes zones d'un PLU.
 
-Plusieurs approches et formats ont été expérimenté dans le temps avec SimPLU3D.
+Plusieurs approches et formats ont été expérimentés dans le temps avec SimPLU3D.
 
 ### Format XML avec éditeur de règle pour Terra-Magna
 
