@@ -9,7 +9,7 @@
     <zone code="Aa" parent="A" />
     <zone code="Au" parent="A" />
     <zone code="N" />
-    
+
     <!-- ATTENTION : Les valeurs n'ont pas été extraite des données de 25392_PLU_20170602 -->
     <zone code="U">
         <rules>
@@ -28,7 +28,7 @@
             </rule>
 
             <!--
-            Plusieurs apparition d'un même id sont possibles si une même règle IAUIDF-XXX 
+            Plusieurs apparition d'un même id sont possibles si une même règle IAUIDF-XXX
             instanciée plusieurs fois a du sens
             -->
             <rule id="IAUIDF-XXX">

@@ -1,6 +1,6 @@
 # Registre des règles SimPLU
 
-## Règles issues du modèle CartoPLU+ développé par l'IAUIDF
+## Règles issues du modèle CartoPLU+ définies par l'IAUIDF
 
 La première règle (IAUIDF-000) définit le nombre de bandes de constructibilité et leurs dimensions. S'il y en a deux, les règles de IAUIDF-001 à IAUIDF-008 sont définies pour les deux bandes.
 
