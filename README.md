@@ -18,40 +18,35 @@ Formaliser entièrement les documents d'urbanisme est une problématique complex
 * Le contexte cartographique est complexe (références aux routes, etc.)
 * La conditionnelle est complexe (les règles dépendent du type de construction, etc.)
 
-**On se concentre ici sur la formalisation de règles "primitives" et on traitera plus tard la composition des règles**.
+**On se concentre ici sur la formalisation de règles "atomatiques" et on traitera plus tard la composition des règles avec des conditions**.
 
-En outre, des travaux sont en cours pour affiner la modélisation de ce registre de règle avec l'équipe SmartPLU. Ces travaux portent en particulier sur :
-
-* L'utilisation du format XML pour la modélisation des règles d'urbanisme (production des schémas XSD associés)
-* La gestion du lien entre les règles dans un tel format et les documents d'urbanisme présents sur le GpU
-
+En outre, des travaux sont à suivre pour affiner la modélisation de ce registre de règles.
 
 ## Concepts
 
 ### Règle d'urbanisme
 
-Une règle sur une zone d'urbanisme est définie à l'aide des propriétés suivantes :
+Une règle SimpLU3D sur une zone d'urbanisme peut être définie à l'aide des propriétés suivantes :
 
 | Propriété  | Type         | Description                                                         | Exemple                                                                                                 |
 | ---------- | ------------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| `id`       | `string`     | Identifiant de la règle d'urbanisme dans le registre                | "IAUIDF-001"                                                                                            |
+| `id`       | `string`     | L'identifiant de la règle d'urbanisme dans le registre              | "IAUIDF-001"                                                                                            |
 | `title`    | `string`     | Nom de la règle pour présentation                                   | "Distance minimale à la voirie"                                                                         |
-| `template` | `string`     | Règle sous forme de phrase avec des paramètres                      | `Les bâtiments ne doivent pas être construits à une distance inférieure à {{ B1_ART_6 }} de la voirie.` |
+| `template` | `string`     | **Règle sous forme de phrase avec des paramètres**                  | `Les bâtiments ne doivent pas être construits à une distance inférieure à {{ B1_ART_6 }} de la voirie.` |
 | `params`   | `RuleParams` | Valeurs nommées définissants les paramètres de la règle d'urbanisme | `B1_ART_6 de type numérique`                                                                            |
 
-Remarque :
+Face à chacune de ces règles, un outil tel SimPLU3D est capable de vérifier si un "bâtiment" respecte ou non la règle. Le modèle de phrase associé permet surtout de faire le lien avec le règlement sous sa forme textuelle.
 
-* On choisit un identifiant sous la forme `{AuteurDuModeleDePhrase}-{NumeroDeLaPhrase}` pour permettre une première étape d'identification des différentes formulations textuelles
-* Il convient toutefois de limiter au maximum le nombre de formulation car il faudra préparer des données (calcul des fonds de parcelle, des bandes, etc.) et écrire des codes pour chaque règle dans les outils qui les interprèteront
 
 ### Registre de règles
 
-Un registre de règles de recenser et décrire un ensemble de règles connues.
+Un registre de règles permet de recenser et décrire un ensemble de règles connues.
 
-En outre, il permet d'obtenir une fiche descriptive associée à l'identifiant de règle.
+En outre, il permet d'obtenir une fiche descriptive associée à l'identifiant de règle, ce qui guide dans l'implémentation de moteur de vérification ou de simulation tel SimPLU3D.
 
 Exemple : [Registre des règles SimPLU](registry/index.md) pour les règles IAUIDF/CartoPLU+ et les règles du démonstrateur Rennes Métropole.
 
+**NB : Seule une approche collaborative permettra d'étendre et de compléter ce registre de règle qui se limite pour l'instant aux cas traités dans le cadre des expérimentations SimPLU3D.**
 
 ## Instanciation des règles d'urbanisme
 
