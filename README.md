@@ -56,19 +56,20 @@ Plusieurs approches et formats ont été expérimentés dans le temps avec SimPL
 
 ### Format XML avec éditeur de règle pour Terra-Magna
 
-Points clés :
+Le projet Terra-Magna correspond à une étude de faisabilité de l'approche SimPLU3D sur quelques communes (2010)
 
-* Projet Terra-Magna pour étude de faisabilité sur quelques communes (2010)
-* Règles instanciées sur les zones d'urbanisme par commune+libellé de zone
-* Phrase auto-générées à partir de paramètre
-* Support de la conditionnelle
-* Interface de saisie :
+On notera les points clés suivant :
 
-> TODO capture
+* Les règles sont instanciées sur les zones d'urbanisme par commune+libellé de zone
+* Une interface de saisie permet de saisir les règles et d'exporter le résultat au format XML
+* Les phrases auto-générées à partir de paramètre
+* Le modèle de règle supporte de la conditionnelle avec par exemple des référence à des routes BDTOPO.
+
+<!--TODO capture d'écran de l'interface -->
 
 * Export XML :
 
-> TODO capture (proximité avec proposition)
+<!--TODO extrait de l'XML correspondant -->
 
 ### Format CSV pour IAUIDF
 
