@@ -54,6 +54,8 @@ Instancier les règles d'urbanisme revient à fournir la liste des règles et le
 
 Plusieurs approches et formats ont été expérimentés dans le temps avec SimPLU3D.
 
+Il est à noter que la notion de registre de règle est compatible avec l'ensemble de ces travaux. Seule une approche où les règles sont formulées directement en [OCL](https://www.cs.montana.edu/courses/se422/currentLectures/OCL-2012.pdf) n'est pas représentée ici.
+
 ### Format XML avec éditeur de règle pour Terra-Magna
 
 Le projet Terra-Magna correspond à une étude de faisabilité de l'approche SimPLU3D sur quelques communes (2010)
@@ -70,6 +72,9 @@ On notera les points clés suivant :
 * Export XML :
 
 <!--TODO extrait de l'XML correspondant -->
+
+
+
 
 ### Format CSV pour IAUIDF
 
